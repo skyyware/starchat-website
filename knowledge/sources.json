@@ -15,7 +15,17 @@
       "source_file": "docs/installation.md",
       "source_sha256": "ca4a63b690b1bfd0b9968f4bab7caad7726c1fae9daa947ee6f6efbb9f3488de",
       "reviewed_at": "2026-10-09",
-      "method": "Read against the source implementation and contract; examples checked locally before release."
+      "method": "Read against the source implementation and contract; examples checked locally before release.",
+      "supporting_sources": [
+        {
+          "source": "https://github.com/skyyware/starchat-website/blob/v0.1.0/public/index.php#L1-L6",
+          "source_file": "public/index.php",
+          "reference": "v0.1.0",
+          "source_sha256": "a1c48cf6926cccd92b42ac6e5791f8b741e6a5175d315b3a295f37ab6db01b23",
+          "reviewed_at": "2026-10-09",
+          "method": "Compared the tagged front controller byte for byte with the current installation; unchanged."
+        }
+      ]
     },
     {
       "document": "knowledge/product/knowledge.md",
@@ -39,7 +49,17 @@
       "source_file": "src/App.php",
       "source_sha256": "801630d16ed5b586bc155b26191486235db7b342dc54a6fbc04d0a6dce30a152",
       "reviewed_at": "2026-10-09",
-      "method": "Read against the source implementation and contract; examples checked locally before release."
+      "method": "Read against the source implementation and contract; examples checked locally before release.",
+      "supporting_sources": [
+        {
+          "source": "https://github.com/skyyware/starchat-website/blob/v0.1.0/public/index.php#L1-L6",
+          "source_file": "public/index.php",
+          "reference": "v0.1.0",
+          "source_sha256": "a1c48cf6926cccd92b42ac6e5791f8b741e6a5175d315b3a295f37ab6db01b23",
+          "reviewed_at": "2026-10-09",
+          "method": "Compared the tagged front controller byte for byte with the current installation; unchanged."
+        }
+      ]
     },
     {
       "document": "knowledge/product/security.md",

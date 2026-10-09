@@ -35,3 +35,14 @@ phase diagnostics. The bounded engine comparison and quality checks are recorded
 in the tagged engine's docs/performance.md. Knowledge links and source hashes
 follow v0.1.3; the installation guide and operations article explain the actual
 profile and diagnostic behavior. Production adoption is verified separately.
+
+Build 2 activated v0.1.3 with eight documents. A browser question asking for the
+complete entrypoint and current tagged source returned `not_found`. Replaying
+its exact synthetic history locally reproduced the rejection: the answer could
+not identify the tag from the supplied evidence, and independent review rejected
+it. Link IDs and titles were present, but the knowledge body omitted their
+version relationship. The two relevant articles now state engine v0.1.3 and
+reference installation v0.1.0 separately. The tagged entrypoint was compared byte
+for byte with the current file and is unchanged. The identical request then
+returned the complete correct PHP and tagged link, with review allowing it.
+This focused correction changes knowledge, not model instructions or review.
