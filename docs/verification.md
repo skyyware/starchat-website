@@ -72,3 +72,13 @@ the displayed code exactly; syntax colors and internal code scrolling were check
 in the native browser. All eight revised GitHub source links returned 200 and
 matched the tagged source hashes. No new model comparison or genuine Ultrafast
 completion is claimed. Documentation-only follow-up commits need no deployment.
+
+The later authenticated catalog on 9 October advertises Ultrafast for the current
+Astra Low profile. Engine v0.1.4 resolves auto to Ultrafast with that catalog and
+the supported client. A controlled host comparison used two questions per
+installation, three profiles and two rounds. This reference installation's median
+application times were 15.97 seconds for Sol Standard, 14.99 for Astra Fast and
+7.73 for Astra Ultrafast. All twelve reference responses were read and grounded;
+the six entrypoint examples matched the tagged source. These small samples omit
+browser transport and do not establish a latency guarantee or a provider-confirmed
+served tier. Production activation and verification are recorded separately.
