@@ -1,0 +1,86 @@
+#!/usr/bin/env php
+<?php
+declare(strict_types=1);
+
+require dirname(__DIR__) . '/vendor/autoload.php';
+
+use Starchat\Document;
+use Starchat\Installation;
+use Starchat\Knowledge;
+use Starchat\App;
+use Stage\Http\Request;
+
+$root = dirname(__DIR__);
+$installation = Installation::fromFile($root . '/installation.json');
+$manifest = json_decode(file_get_contents($root . '/knowledge/sources.json'), true, flags: JSON_THROW_ON_ERROR);
+$fail = static function (bool $condition, string $message): void {
+    if (!$condition) { throw new RuntimeException($message); }
+};
+$fail(!isset($installation->data['markdown_sources']), 'External knowledge configuration remains');
+$paths = [];
+$seen = [];
+foreach ($manifest['sources'] as $source) {
+    $file = $root . '/' . $source['document'];
+    $fail(preg_match('~^knowledge/product/[a-z-]+\.md$~D', $source['document']) === 1 && !isset($seen[$file]), 'Invalid or duplicate review binding');
+    $seen[$file] = true;
+    $fail(hash_file('sha256', $file) === $source['document_sha256'], 'Article changed after review: ' . $source['document']);
+    $document = Document::read($file, $installation->id());
+    $fail($document->meta['review_status'] === 'reviewed' && $document->meta['retrieved_at'] === $source['reviewed_at'], 'Article review mismatch');
+    $fail($document->meta['source'] === $source['source'], 'Article source mismatch');
+    $fail(strlen($document->body) <= 6000, 'Article exceeds answer evidence budget');
+    $paths[] = $document->meta['public_path'];
+    if (isset($source['source_file'])) {
+        $fail($source['package'] === 'skyyware/starchat' && $source['source_version'] === 'v0.2.0', 'Unexpected reviewed package');
+        $fail($document->meta['source_version'] === 'skyyware/starchat v0.2.0', 'Immutable article version mismatch');
+        $fail(hash_file('sha256', $root . '/vendor/skyyware/starchat/' . $source['source_file']) === $source['source_sha256'], 'Package changed after review: ' . $source['source_file']);
+    } else {
+        $fail(!isset($document->meta['source_version']), 'Changing external facts must retain the age limit');
+    }
+    foreach ($document->meta['links'] as $link) {
+        $url = parse_url($link['url']);
+        if ($url['host'] === 'stage.dev') {
+            parse_str($url['query'] ?? '', $query);
+            $fail(isset($query['q']) && is_string($query['q']) && mb_strlen($query['q']) <= 1800, 'Technical handoff needs a bounded question');
+        }
+    }
+}
+$files = glob($root . '/knowledge/*/*.md');
+$fail(count($files) === count($seen) && array_diff($files, array_keys($seen)) === [], 'Knowledge lacks review provenance');
+$fail(count($paths) === count(array_unique($paths)), 'Duplicate public resource');
+$fail(in_array('/resources/markdown-sources', $paths, true), 'Preserve the old guide address as a migration explanation');
+$index = sys_get_temp_dir() . '/starchat-reference-' . bin2hex(random_bytes(8)) . '.sqlite';
+try {
+    $knowledge = new Knowledge($installation, $index);
+    $fail($knowledge->rebuild() === count($files), 'Index did not include every owned article');
+    $fail(count($knowledge->catalogue(true)) === count($files), 'Reviewed articles are not eligible');
+    foreach (['personal portfolio' => 'starchat-personal', 'alternatives' => 'starchat-alternatives', 'company organization' => 'starchat-organizations', 'external connector' => 'starchat-markdown-sources'] as $query => $expected) {
+        $ids = array_map(static fn (Document $document): string => $document->meta['id'], $knowledge->search($query));
+        $fail(in_array($expected, $ids, true), 'Relevant article not retrieved: ' . $query);
+    }
+    $db = new PDO('sqlite:' . $index);
+    $fail((int) $db->query('PRAGMA user_version')->fetchColumn() === 2, 'Old index format');
+    $fail($db->query('PRAGMA integrity_check')->fetchColumn() === 'ok', 'Index integrity failed');
+    $runtime = dirname($index) . '/' . basename($index, '.sqlite');
+    mkdir($runtime, 0700);
+    copy($index, $runtime . '/knowledge.sqlite');
+    $previous = getenv('STARCHAT_RUNTIME');
+    putenv('STARCHAT_RUNTIME=' . $runtime);
+    try {
+        $app = new App($root, 'chat.stage.dev');
+        foreach (['/', ...$paths, '/legal', '/starchat/question-link.js'] as $path) {
+            $fail($app->handle(new Request('GET', $path))->status === 200, 'Public route failed: ' . $path);
+        }
+        foreach (['/installation.json', '/knowledge/sources.json', '/vendor/autoload.php', '/config/markdown-sources.json'] as $path) {
+            $fail($app->handle(new Request('GET', $path))->status === 404, 'Protected file exposed: ' . $path);
+        }
+    } finally {
+        putenv($previous === false ? 'STARCHAT_RUNTIME' : 'STARCHAT_RUNTIME=' . $previous);
+        unlink($runtime . '/knowledge.sqlite');
+        rmdir($runtime);
+    }
+} finally {
+    if (is_file($index)) { unlink($index); }
+    if (is_file($index . '.lock')) { unlink($index . '.lock'); }
+}
+$fail(hash_file('sha256', $root . '/public/branding/inter-variable.woff2') === '693b77d4f32ee9b8bfc995589b5fad5e99adf2832738661f5402f9978429a8e3', 'Unexpected font asset');
+echo count($files), " reviewed owned articles, source bindings, retrieval, handoffs and index verified\n";

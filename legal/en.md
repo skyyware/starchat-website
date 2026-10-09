@@ -27,6 +27,12 @@ confidential information. The application does not intentionally write questions
 and answers to server files or databases. This is not a promise about processing
 by the AI provider; its terms and the settings of the account used apply.
 
+A link may contain a prepared question. Its text reaches the destination server
+as part of the initial URL, then becomes an editable draft and is removed from
+the address. It is sent to the model only when you submit it. Technical handoff
+links to Stage contain a general question, not this conversation. Do not put
+personal or confidential details in such links.
+
 We do not create visitor accounts, analytics profiles or conversation cookies.
 Fonts are served locally. Technically necessary network data is processed when
 you visit the website. Access and error logs for this public application are

@@ -1,21 +1,22 @@
 ---
 id: "starchat-operations"
 entity: "starchat"
-title: "Test and maintain an installation"
-source: "https://github.com/skyyware/starchat/blob/v0.1.4/docs/installation.md#L1-L70"
+title: "What running a chat involves"
+source: "https://github.com/skyyware/starchat/blob/v0.2.0/docs/installation.md"
 retrieved_at: "2026-10-09"
 review_status: "reviewed"
+source_version: "skyyware/starchat v0.2.0"
 public_path: "/resources/operations"
-topic_terms: ["operations", "test", "deploy", "update", "maintenance", "version", "latency", "speed", "slow", "Fast"]
-links: [{"label": "Test and maintain an installation — source", "url": "https://github.com/skyyware/starchat/blob/v0.1.4/docs/installation.md#L1-L70"}, {"label": "Test and maintain an installation — guide", "url": "https://chat.stage.dev/resources/operations"}]
+topic_terms: ["cost", "costs", "pricing", "kosten", "preis", "price", "maintenance", "betrieb", "hosting", "maintain"]
+links: [{"label": "What running a chat involves", "url": "https://chat.stage.dev/resources/operations"}, {"label": "Explore technical operations with Stage", "url": "https://stage.dev/?q=What%20hosting%2C%20runtime%2C%20model%20configuration%2C%20checks%20and%20release%20process%20does%20a%20Starchat%20installation%20on%20Stage%20need%3F"}]
 ---
 
-The shared engine is versioned through Composer and the installation commits composer.lock. Updating source code does not deploy it. Before an engine update, review its changes, run composer check in the engine and test the consuming installation. Use composer audit to inspect known dependency advisories.
+Starchat's engine is open source under the MIT license. You can run and modify the software. Running a useful public chat still involves hosting, an approved model connection, preparing and checking knowledge, testing changes and keeping the service available.
 
-Knowledge updates require reviewing the source content and its useful links, editing Markdown and running vendor/bin/starchat index. No built-in crawler or automatic reviewer silently marks content checked. The current source lifetime is rechecked on lookup, so expired sources may stop supplying answers until reviewed again.
+No fixed hosting price, model bill, maintenance tariff or service-level promise is published in this collection. Those depend on the chosen setup, provider terms, usage and whoever operates the installation. A free software license does not make those other costs zero.
 
-/health reports status, entity, document count, limiter availability, engine version and any operator-supplied build metadata. /sources explains source use. Public resources appear only for reviewed current documents with public_path. Each operator should configure private runtime, HTTPS, safe web-root rules, APCu, a suitable edge limit and a rollback path.
+Choose someone responsible for corrections, relevant software updates and the factual collection. Changes should be tested before delivery. There is no automatic live update from a remote knowledge folder, no scheduled content rewrite and no unattended upgrade implied by the product.
 
-Model calls are limited to 25 seconds each with a shared 45-second request deadline. The browser timeout is 50 seconds. A host should allow at least 55 seconds. There are three concurrent request slots and an aggregate twenty-request-per-minute limit when APCu is enabled; these limits do not constitute a provider spending cap.
+A small first collection makes review manageable. Decide which recurring questions are worth answering and compare the effort with a good FAQ or help center. If you already have a helpdesk with the functions you need, extending it may require less ongoing work.
 
-The default model profile is gpt-6-astra with low reasoning and Fast service. Source retrieval, optional model source selection, answer generation and independent answer review happen in sequence. The answer appears only after validation and review. Response headers provide Server-Timing for these phases and a fixed X-Starchat-Failure category on failures. They contain no conversation contents, private paths or user identifiers, and the engine does not write these diagnostics to disk. Actual speed depends on the request and provider; Fast is not an immediate-response guarantee.
+If someone wants technical operating instructions, Stage can explain them. If someone asks who can help with installation or maintenance services, the separate contact information identifies the maintainer without inventing pricing or availability.

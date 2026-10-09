@@ -10,14 +10,14 @@
   "timezone": "Europe/Berlin",
   "source_max_age_days": 90,
   "website": "https://chat.stage.dev",
-  "scope": "Help people understand, install, customize and maintain Starchat using its public source and documentation. Explain this public reference installation, Markdown knowledge, Composer, Stage integration, code formatting, model configuration and security boundaries. Source-supported code examples that directly use or extend Starchat are allowed. General coding unrelated to Starchat, other products, personal advice, entertainment, private infrastructure, secrets and actual transactions are outside this purpose.",
+  "scope": "Help a person understand what Starchat could do for them, their work, product, company, organization or community. Explain practical uses, personal promotion with truthful public portfolio facts, benefits, limitations, responsible knowledge maintenance, privacy, costs that are known, and honest alternatives. Help them plan a small useful collection or draft relevant sample wording with placeholders. Do not invent personal qualifications, testimonials, product capabilities, prices or completed actions. This is a consumer-facing product conversation, not a default developer tutorial. For explicit technical interest, give the most relevant supplied Stage handoff link with its prepared question. High-level technical explanations and requested public source links are allowed; detailed implementation belongs at Stage. Mention maintainer SKYYWARE and office@skyyware.com only when asked who is behind the product, asked for support, or when someone wants to contact installation or maintenance services. Do not push sales. Relevant competitors and simpler non-chat alternatives are allowed and should be recommended when they fit better. General unrelated work, private infrastructure, secrets, impersonation and deceptive promotion are outside scope. Genuine relevant drafting, translation and follow-up help are allowed. Prefer the supplied visitor-facing resource links for ordinary questions. Use GitHub source links for requested technical detail or source inspection.",
   "brand": {
-    "primary": "#f3f6fc",
-    "accent": "#b1c5ff",
-    "background": "#080b12",
-    "text": "#e3e9f3",
-    "font": "d-din",
-    "heading_font": "d-din",
+    "primary": "#171a20",
+    "accent": "#3e54bd",
+    "background": "#ffffff",
+    "text": "#25282d",
+    "font": "system-sans",
+    "heading_font": "system-sans",
     "logo": "/branding/starchat.svg",
     "logo_alt": "Starchat",
     "favicon": "/branding/favicon.svg",
@@ -25,39 +25,45 @@
   },
   "navigation": [
     {
-      "label": "Starchat source",
-      "url": "https://github.com/skyyware/starchat"
+      "label": "What Starchat could do for you",
+      "url": "https://chat.stage.dev/resources/overview"
     },
     {
-      "label": "This installation",
-      "url": "https://github.com/skyyware/starchat-website"
+      "label": "Explore practical uses",
+      "url": "https://chat.stage.dev/resources/personal"
     },
     {
-      "label": "Getting started",
-      "url": "https://chat.stage.dev/resources/installation"
+      "label": "Compare the alternatives",
+      "url": "https://chat.stage.dev/resources/alternatives"
     }
   ],
   "copy": {
     "en": {
-      "headline": "Your knowledge.\nA new dimension.",
-      "description": "Meet the open-source chat that makes your knowledge useful. This one knows Starchat. Yours can know your world.",
-      "orientation": "I can help you understand, build and customize a Starchat installation.",
-      "followup": "What would you like to build with Starchat?",
+      "headline": "A chat of your own.",
+      "description": "Discover what a chat could do for you — from a personal portfolio to a public service.",
+      "orientation": "I can help you explore what Starchat could do for you, your work or your organization.",
+      "followup": "Who would you like your chat to help?",
       "suggestions": [
-        "What is Starchat?",
-        "Show me a working code example.",
-        "How do I make my own?"
+        "Could Starchat work for me?",
+        "What can a chat of my own do?",
+        "When is a simple website better?",
+        "Could it introduce my work?",
+        "How could it help our community?",
+        "What would I need to get started?"
       ]
     },
     "de": {
-      "headline": "Ihr Wissen.\nEine neue Dimension.",
-      "description": "Der Open-Source-Chat, der Ihr Wissen nutzbar macht. Dieser kennt Starchat. Ihrer kann Ihre Welt kennen.",
-      "orientation": "Ich helfe Ihnen, Starchat zu verstehen, einzurichten und anzupassen.",
-      "followup": "Was möchten Sie mit Starchat aufbauen?",
+      "headline": "Ein Chat für Ihre Welt.",
+      "description": "Entdecken Sie, was ein eigener Chat für Sie leisten kann — vom persönlichen Portfolio bis zum Bürgerservice.",
+      "orientation": "Ich helfe Ihnen herauszufinden, was Starchat für Sie, Ihre Arbeit oder Ihre Organisation leisten kann.",
+      "followup": "Wem möchten Sie mit Ihrem Chat helfen?",
       "suggestions": [
-        "Was ist Starchat?",
-        "Zeig mir ein Codebeispiel.",
-        "Wie baue ich meine eigene Installation?"
+        "Passt Starchat zu mir?",
+        "Was kann ein eigener Chat leisten?",
+        "Wann ist eine einfache Website besser?",
+        "Kann der Chat meine Arbeit vorstellen?",
+        "Wie hilft er unserer Gemeinde?",
+        "Was brauche ich für den Anfang?"
       ]
     }
   },
@@ -93,7 +99,42 @@
     ],
     "code": [
       "examples"
+    ],
+    "ich": [
+      "personal"
+    ],
+    "mich": [
+      "personal"
+    ],
+    "freelancer": [
+      "personal"
+    ],
+    "gemeinde": [
+      "organizations"
+    ],
+    "alternativen": [
+      "alternatives"
+    ],
+    "vergleich": [
+      "alternatives"
+    ],
+    "kosten": [
+      "operations"
+    ],
+    "preis": [
+      "operations"
+    ],
+    "support": [
+      "contact"
+    ],
+    "kontakt": [
+      "contact"
+    ],
+    "updates": [
+      "knowledge"
+    ],
+    "kommerzielle": [
+      "operations"
     ]
-  },
-  "markdown_sources": "config/markdown-sources.json"
+  }
 }

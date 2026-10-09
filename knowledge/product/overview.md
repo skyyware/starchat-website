@@ -1,19 +1,22 @@
 ---
 id: "starchat-overview"
 entity: "starchat"
-title: "What is Starchat?"
-source: "https://github.com/skyyware/starchat/blob/v0.1.4/README.md#L1-L70"
+title: "What could Starchat do for you?"
+source: "https://github.com/skyyware/starchat/blob/v0.2.0/README.md"
 retrieved_at: "2026-10-09"
 review_status: "reviewed"
+source_version: "skyyware/starchat v0.2.0"
 public_path: "/resources/overview"
-topic_terms: ["starchat", "product", "overview"]
-links: [{"label": "This installation on GitHub", "url": "https://github.com/skyyware/starchat-website"}, {"label": "What is Starchat? — source", "url": "https://github.com/skyyware/starchat/blob/v0.1.4/README.md#L1-L70"}, {"label": "What is Starchat? — guide", "url": "https://chat.stage.dev/resources/overview"}]
+topic_terms: ["starchat", "overview", "what is", "possibilities"]
+links: [{"label": "What could Starchat do for you?", "url": "https://chat.stage.dev/resources/overview"}]
 ---
 
-Starchat is an open-source PHP application engine for a focused chat about one product, organization or community. It is built on Stage. The operator owns the installation, its Markdown knowledge, appearance and deployment. Composer supplies the shared engine.
+Starchat gives a person, product, company, community or public service a chat of its own. Visitors ask in everyday language and receive answers drawn from information the owner has checked, with links to useful next steps. Its look, voice and subject belong to that owner.
 
-The public reference installation is this website, chat.stage.dev. Its repository is skyyware/starchat-website. You can inspect its configuration, knowledge and CSS, then adapt them to your own identity and purpose. Other installations can keep their repositories private.
+A personal version could explain a designer's work and link to a portfolio. A product version could answer questions about published features or instructions. A community version could help people find services and understand how to use them. These are possible uses, not claims that this website already knows someone else's information.
 
-Starchat gives source-backed answers and useful links, can show small code examples, and can publish selected articles as resources. It does not browse websites during a question, execute code, submit forms or book appointments. Its knowledge is a reviewed collection, not an assertion of complete knowledge. Its scope is configured by the operator and reasserted for every question.
+This chat helps you explore whether Starchat fits your needs. Start with your audience, the questions they repeat and what they should be able to find. You can ask for a concrete example, compare approaches or sketch a small first version. You do not need technical knowledge to explore the idea.
 
-MIT licensing covers the engine and the reference installation. Bundled fonts keep their original licenses. The operator still needs suitable rights for their own content and assets, and approved model access.
+Starchat is open source under the MIT license. You may run and adapt your own installation. Software licensing does not pay for hosting, model usage, preparation of content or maintenance. There is no published all-inclusive service price here.
+
+The current product answers and guides people. It can help formulate, shorten or translate relevant text. It does not itself send messages, book appointments, place orders or approve applications. Links can lead to services that perform those actions; those services remain responsible for their own steps.

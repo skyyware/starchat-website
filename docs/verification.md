@@ -118,3 +118,29 @@ The actual deployment contains the exact reviewed package guide. Protected files
 remain inaccessible and a foreign-origin chat request receives 403. The approved
 Astra Low Ultrafast profile and separate answer review remain active. Subsequent
 documentation commits do not require another deployment.
+
+The v0.2.0 candidate replaces the external Markdown connector with fourteen
+separately curated visitor articles. The former guide URL remains as an owned
+migration explanation. Review provenance binds each article and its immutable
+package source; changing product comparisons and contact facts retain normal
+age limits. Local checks verify the bindings, retrieval, public resources,
+protected-file rejection and an isolated version-2 index.
+
+Nine serial requests against the candidate used the existing approved host
+connection: portfolio guidance, a contextual introduction draft, an association,
+a Zendesk comparison, knowledge maintenance, technical handoff, contact, a false
+testimonial and a secret-extraction attempt. All complete outputs were read.
+The seven relevant answers passed independent review; the two abusive requests
+received orientation. The draft used supplied facts and placeholders. Zendesk
+was retained for existing ticket and human-support needs. No action, price or
+availability was invented. These are bounded observations, not a universal
+security guarantee. The local model connection returned unavailable; it supplies
+no successful-answer evidence.
+
+The white interface, original eight-point mark and self-hosted OFL Inter font
+were inspected in the native browser at desktop, 393 and 320 pixels. There was
+no page overflow. A linked question became editable plain text, disappeared
+from the address and preserved the prior conversation. It was not sent
+automatically. Keyboard focus remained on the empty composer after reset.
+The release also preserves the existing history key. Production activation
+and the final live answer checks remain separate.

@@ -1,32 +1,20 @@
 ---
 id: "starchat-code-examples"
 entity: "starchat"
-title: "Code examples and exact source links"
-source: "https://github.com/skyyware/starchat/blob/v0.1.7/src/App.php#L1-L70"
+title: "Technical questions: continue with Stage"
+source: "https://github.com/skyyware/starchat/blob/v0.2.0/docs/installation.md"
 retrieved_at: "2026-10-09"
 review_status: "reviewed"
+source_version: "skyyware/starchat v0.2.0"
 public_path: "/resources/code-examples"
-topic_terms: ["code", "examples", "php", "example", "beispiel"]
-links: [{"label": "Complete front controller · reference v0.1.0", "url": "https://github.com/skyyware/starchat-website/blob/v0.1.0/public/index.php#L1-L6"}, {"label": "Code examples and exact source links — source", "url": "https://github.com/skyyware/starchat/blob/v0.1.7/src/App.php#L1-L70"}, {"label": "Code examples and exact source links — guide", "url": "https://chat.stage.dev/resources/code-examples"}]
+topic_terms: ["code", "php", "composer", "technical", "developer", "develop", "programmieren", "technik", "integration", "framework"]
+links: [{"label": "Technical questions: continue with Stage", "url": "https://chat.stage.dev/resources/code-examples"}, {"label": "Build Starchat with Stage", "url": "https://stage.dev/?q=How%20do%20I%20build%20a%20Starchat%20installation%20with%20Stage%20using%20Composer%3F%20Show%20the%20documented%20PHP%20entrypoint%20and%20explain%20its%20purpose."}, {"label": "Starchat engine on GitHub", "url": "https://github.com/skyyware/starchat"}, {"label": "This installation on GitHub", "url": "https://github.com/skyyware/starchat-website"}]
 ---
 
-Starchat shows code as text with syntax colors, horizontal scrolling and a copy button. It never executes a snippet. Supported answer languages are php, json, javascript, bash, yaml, text, css and html. Answers can include up to two code blocks with up to 6000 characters each. Copying requires a user click.
+This site helps people understand what Starchat could do for them. For explicit interest in implementation, PHP, Composer, configuration, deployment or code, the technical companion at Stage is the appropriate next step.
 
-As reviewed on 9 October 2026, this installation uses Starchat engine v0.1.7. The linked complete front controller is from the separate reference installation tag v0.1.0 and is unchanged here. The engine and reference installation have independent version numbers. The engine source link points to v0.1.7; the front-controller link points to v0.1.0.
+Use the most relevant prepared question below. It opens at stage.dev as a draft that the visitor can edit and send. No conversation history, private configuration or credentials are passed. The source chat has not installed or deployed anything.
 
-This minimal front controller starts an installation after Composer has installed the package:
+Stage can explain its framework and Starchat integration using its own curated technical knowledge. The Starchat engine and this complete reference installation are also public on GitHub. They are available for inspection when the visitor asks for source code.
 
-```php
-<?php
-declare(strict_types=1);
-
-require dirname(__DIR__) . '/vendor/autoload.php';
-
-Starchat\App::run(dirname(__DIR__));
-```
-
-The application reads installation.json from that directory and serves only the configured entity. The HTTP server points at public/, not the repository root. Build its knowledge index before serving.
-
-For a custom Stage application, new Starchat\App($root, $host) exposes handle($request), returning a Stage\Http\Response. Keep existing CMS and private routes in a private dispatcher and pass only the chat paths to this application. The constructor also accepts an optional Closure connector factory for controlled integration tests or another Stage Chat connector.
-
-To link directly to implementation, add a checked GitHub permalink with a version and line range as a knowledge link. The model can select only offered link IDs; it cannot invent URLs. Generated examples are not a claim of execution or testing. Review and test them in your own environment.
+Do not offer a code tutorial as a default starting question on this consumer site. Answer the person's practical question first and offer a technical continuation when that is what they actually want.

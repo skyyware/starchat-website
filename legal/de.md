@@ -30,6 +30,12 @@ Fragen und Antworten nicht absichtlich in Serverdateien oder Datenbanken. Das is
 keine Zusicherung über die Verarbeitung beim KI-Anbieter; dessen Bedingungen und
 die Einstellungen des verwendeten Kontos gelten.
 
+Ein Link kann eine vorbereitete Frage enthalten. Ihr Text erreicht den Zielserver
+als Teil der ersten URL, wird danach als bearbeitbarer Entwurf angezeigt und aus
+der Adresse entfernt. Erst beim Absenden geht er an das Modell. Technische
+Übergabelinks zu Stage enthalten eine allgemeine Frage, nicht dieses Gespräch.
+Persönliche oder vertrauliche Angaben gehören nicht in solche Links.
+
 Wir erstellen keine Besucherkonten, Analyseprofile oder Gesprächscookies. Schriften
 werden lokal ausgeliefert. Beim Aufruf werden technisch notwendige Netzwerkdaten
 verarbeitet. Zugriffs- und Fehlerprotokolle sind für diese öffentliche Anwendung

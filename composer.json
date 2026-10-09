@@ -5,7 +5,7 @@
   "license": "MIT",
   "require": {
     "php": "^8.4",
-    "skyyware/starchat": "^0.1.0"
+    "skyyware/starchat": "^0.2"
   },
   "repositories": [
     {
@@ -17,5 +17,10 @@
     "allow-plugins": false,
     "sort-packages": true,
     "preferred-install": "dist"
+  },
+  "scripts": {
+    "check": [
+      "@php bin/check"
+    ]
   }
 }

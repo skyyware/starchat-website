@@ -1,32 +1,22 @@
 ---
 id: "starchat-knowledge"
 entity: "starchat"
-title: "Give your chat reliable knowledge"
-source: "https://github.com/skyyware/starchat/blob/v0.1.4/docs/knowledge.md#L1-L50"
+title: "Information you can stand behind"
+source: "https://github.com/skyyware/starchat/blob/v0.2.0/docs/knowledge.md"
 retrieved_at: "2026-10-09"
 review_status: "reviewed"
+source_version: "skyyware/starchat v0.2.0"
 public_path: "/resources/knowledge"
-topic_terms: ["knowledge", "markdown", "sources", "index", "wissen", "quellen"]
-links: [{"label": "Give your chat reliable knowledge — source", "url": "https://github.com/skyyware/starchat/blob/v0.1.4/docs/knowledge.md#L1-L50"}, {"label": "Give your chat reliable knowledge — guide", "url": "https://chat.stage.dev/resources/knowledge"}]
+topic_terms: ["knowledge", "wissen", "information", "database", "datenbank", "sources", "quellen", "markdown", "update", "aktuell"]
+links: [{"label": "Information you can stand behind", "url": "https://chat.stage.dev/resources/knowledge"}, {"label": "Discuss technical knowledge maintenance with Stage", "url": "https://stage.dev/?q=How%20should%20I%20maintain%20an%20installation-owned%20Starchat%20Markdown%20knowledge%20database%20and%20its%20provenance%20when%20features%20change%3F"}]
 ---
 
-Each installation owns knowledge/<category>/*.md files. Each file has YAML front matter and a Markdown body. entity must match the installation ID. id, title, source, retrieved_at and review_status are required. Source and action URLs use HTTPS.
+Each Starchat installation has its own curated knowledge collection. The responsible people, with an authorized agent when useful, prepare information specifically for that audience. The chat uses this accepted collection to answer and provide useful links.
 
-```yaml
----
-id: product-setup
-entity: example
-title: Set up Example
-source: https://example.test/documentation/setup
-retrieved_at: '2026-10-09'
-review_status: reviewed
-topic_terms: [setup, installation]
-public_path: /resources/setup
----
-```
+Internal documentation and chat knowledge serve different readers. A technical manual can be a source for research; the visitor-facing article is separately written to answer real questions. There is no live connector to external Markdown folders, another repository or arbitrary websites.
 
-This metadata is an example; replace its ID, owner, URL and date with the actual source you checked. Facts and useful steps follow the front matter. A download is not a review. Mark reviewed only after checking the content, its conditions and useful links. Keep missing or conflicting information explicit.
+A new feature, corrected fact, release or a question that exposes a useful gap triggers a focused review. The responsible maintainer checks the original information, updates the affected articles, tests the resulting answers and deliberately delivers the change. An unchanged collection does not need a scheduled rewrite. The software does not launch a background refresh or automatically mark downloaded content as reviewed.
 
-source_max_age_days is configured per installation. valid_until may impose an earlier expiry. Retrieval checks both primary and supporting sources. topic_terms, phrase_terms and keywords help retrieval. based_on connects a guide to up to twelve direct supporting sources.
+Changing facts, such as opening hours and prices, need dates and appropriate validity limits. A technical explanation tied to an immutable release remains evidence for that specific version; it does not prove what the latest release or current external availability is.
 
-public_path deliberately publishes a current reviewed article. Without it, there is no raw public resource page, but facts may still appear in public answers. Never put private material or credentials in knowledge. Rebuild with vendor/bin/starchat index after a reviewed change. It validates and indexes; it does not browse, review or automatically refresh dates. Invalid sources and duplicate IDs or public paths prevent replacement of the accepted index.
+A good collection states what is known, retains important conditions and offers a reliable next step where information is missing. It should not invent certainty. Information included in this public chat must be suitable for visitors and for processing by its model provider.

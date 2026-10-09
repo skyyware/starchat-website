@@ -1,32 +1,20 @@
 ---
 id: "starchat-branding"
 entity: "starchat"
-title: "Make it look like your organization"
-source: "https://github.com/skyyware/starchat/blob/v0.1.4/examples/installation/installation.json#L1-L40"
+title: "Make it feel like you"
+source: "https://github.com/skyyware/starchat/blob/v0.2.0/examples/installation/installation.json"
 retrieved_at: "2026-10-09"
 review_status: "reviewed"
+source_version: "skyyware/starchat v0.2.0"
 public_path: "/resources/branding"
-topic_terms: ["branding", "design", "styles", "colors", "logo"]
-links: [{"label": "This installation on GitHub", "url": "https://github.com/skyyware/starchat-website"}, {"label": "Make it look like your organization — source", "url": "https://github.com/skyyware/starchat/blob/v0.1.4/examples/installation/installation.json#L1-L40"}, {"label": "Make it look like your organization — guide", "url": "https://chat.stage.dev/resources/branding"}]
+topic_terms: ["brand", "branding", "style", "design", "appearance", "logo", "farben", "gestaltung", "aussehen"]
+links: [{"label": "Make it feel like you", "url": "https://chat.stage.dev/resources/branding"}, {"label": "Explore technical styling with Stage", "url": "https://stage.dev/?q=How%20do%20I%20configure%20the%20name%2C%20logo%2C%20colors%2C%20fonts%20and%20CSS%20of%20my%20own%20Starchat%20installation%20on%20Stage%3F"}]
 ---
 
-Appearance belongs to the installation. installation.json configures primary, accent, background and text colors, plus body and heading fonts. Available font keys are source-sans, roboto-slab, d-din, system-sans and system-serif.
+Each installation can have its own name, logo, colors, typography and public voice. Its knowledge and purpose can represent a person, product, company or organization. A municipal service can therefore feel familiar to its residents, while a personal portfolio can reflect the person behind it.
 
-```json
-{
-  "primary": "#014e66",
-  "accent": "#e9004c",
-  "background": "#ffffff",
-  "text": "#002733",
-  "font": "source-sans",
-  "heading_font": "roboto-slab",
-  "logo": "/branding/organization.svg",
-  "logo_alt": "Your organization",
-  "favicon": "/branding/favicon.svg",
-  "stylesheet": "/branding/organization.css"
-}
-```
+Start with the identity your audience already recognizes. Keep text readable, the question field easy to find and the next steps understandable. A restrained interface can suit public services; a more expressive one can suit creative work. Changing the appearance does not grant the chat new information or capabilities.
 
-This object is the value of brand, not a complete installation.json. Put the referenced assets in public/branding. A configured logo replaces the text wordmark. copy provides the headline, introduction, fixed scope orientation and starting questions for each configured language. The chat supports a language selector and preserves the visible conversation.
+Use logos, fonts, photographs and written material you own or have the right to use. The open-source software license does not grant rights to another organization's brand. The appearance can be adapted without copying a competitor's identity.
 
-The public reference website demonstrates a dark design in public/branding/starchat.css. Other installations can use completely different branding while retaining the same engine and accessible semantic controls. Review contrast, keyboard focus and narrow screens after changes.
+This website is one example. Your installation can use a different design and collection. If you want to implement styling or configuration in code, continue with the prepared technical question at Stage.
