@@ -82,3 +82,11 @@ application times were 15.97 seconds for Sol Standard, 14.99 for Astra Fast and
 the six entrypoint examples matched the tagged source. These small samples omit
 browser transport and do not establish a latency guarantee or a provider-confirmed
 served tier. Production activation and verification are recorded separately.
+
+Build 5 from 00623639d782690cbbaddddd8514992e111108ed was activated at 18:06 UTC
+with engine v0.1.4 and the same eight documents. Auto resolves to Ultrafast for
+source selection, answer generation and independent review. A complete real
+HTTPS entrypoint answer arrived in 7.878 seconds and matched public/index.php
+and its tagged source link. No application or interface files changed; only
+release metadata and the two Composer root commit references differ. Later
+documentation commits do not require another deployment.
