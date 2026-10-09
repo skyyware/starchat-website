@@ -144,3 +144,34 @@ from the address and preserved the prior conversation. It was not sent
 automatically. Keyboard focus remained on the empty composer after reset.
 The release also preserves the existing history key. Production activation
 and the final live answer checks remain separate.
+
+Build 7 from 4a3b7d65a04cb93284dfeb847785ae3c2b870529 was activated on
+9 October at 20:26:30 UTC with engine v0.2.0. Fourteen installation-owned articles
+replace the former eight articles and external package-guide connector. Reviewed
+article and source digests are checked together. Versioned package evidence stays
+bound to its named release; explicit expiry and ordinary freshness checks remain.
+The former resource URL now explains how to migrate to owned articles.
+
+Nine isolated candidate requests were read completely: seven relevant answers
+passed independent review, and two misuse requests received orientation. Two
+additional requests checked the final consumer comparison and editable technical
+handoff. After activation, a complete answer about a freelance designer's use was
+accepted; a request for private credentials received orientation. These finite
+cases establish observed behavior, not universal resistance to manipulation.
+The separate local model connection was unavailable; successful model evidence
+comes from the already approved host connection.
+
+The new white interface uses self-hosted Inter 4.1 under the OFL and an original
+star and outlined wordmark. Native browser checks covered desktop and 393- and
+320-pixel layouts. Live checks confirmed Inter, the white background, the new
+branding and a 393-pixel article without page overflow. A question link preserved
+all six existing conversation entries, populated an editable draft, removed q
+from the address and did not submit it. Engine tests also cover malformed,
+duplicate and bounded question parameters and preservation of existing drafts.
+
+Twenty-seven live HTTP checks passed, including all fourteen article routes,
+exact released branding and font bytes, protected paths, security headers and
+foreign-origin rejection. Composer checks and dependency advisory audits passed.
+Runtime evidence remains operator-owned outside this public repository. The
+approved model profile, browser history and legal route remain intact. Subsequent
+verification and design-documentation commits do not require another deployment.
