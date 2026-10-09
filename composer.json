@@ -1,0 +1,21 @@
+{
+  "name": "skyyware/starchat-website",
+  "description": "The public Starchat reference installation and its source-backed knowledge.",
+  "type": "project",
+  "license": "MIT",
+  "require": {
+    "php": "^8.4",
+    "skyyware/starchat": "^0.1.0"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/skyyware/starchat"
+    }
+  ],
+  "config": {
+    "allow-plugins": false,
+    "sort-packages": true,
+    "preferred-install": "dist"
+  }
+}

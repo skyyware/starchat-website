@@ -1,0 +1,98 @@
+{
+  "id": "starchat",
+  "name": "Starchat",
+  "short_name": "Starchat",
+  "hosts": [
+    "chat.stage.dev",
+    "starchat.dev"
+  ],
+  "locale": "en",
+  "timezone": "Europe/Berlin",
+  "source_max_age_days": 90,
+  "website": "https://chat.stage.dev",
+  "scope": "Help people understand, install, customize and maintain Starchat using its public source and documentation. Explain this public reference installation, Markdown knowledge, Composer, Stage integration, code formatting, model configuration and security boundaries. Source-supported code examples that directly use or extend Starchat are allowed. General coding unrelated to Starchat, other products, personal advice, entertainment, private infrastructure, secrets and actual transactions are outside this purpose.",
+  "brand": {
+    "primary": "#f3f6fc",
+    "accent": "#b1c5ff",
+    "background": "#080b12",
+    "text": "#e3e9f3",
+    "font": "d-din",
+    "heading_font": "d-din",
+    "logo": "/branding/starchat.svg",
+    "logo_alt": "Starchat",
+    "favicon": "/branding/favicon.svg",
+    "stylesheet": "/branding/starchat.css"
+  },
+  "navigation": [
+    {
+      "label": "Starchat source",
+      "url": "https://github.com/skyyware/starchat"
+    },
+    {
+      "label": "This installation",
+      "url": "https://github.com/skyyware/starchat-website"
+    },
+    {
+      "label": "Getting started",
+      "url": "https://chat.stage.dev/resources/installation"
+    }
+  ],
+  "copy": {
+    "en": {
+      "headline": "Your knowledge.\nA new dimension.",
+      "description": "Meet the open-source chat that makes your knowledge useful. This one knows Starchat. Yours can know your world.",
+      "orientation": "I can help you understand, build and customize a Starchat installation.",
+      "followup": "What would you like to build with Starchat?",
+      "suggestions": [
+        "What is Starchat?",
+        "Show me a working code example.",
+        "How do I make my own?"
+      ]
+    },
+    "de": {
+      "headline": "Ihr Wissen.\nEine neue Dimension.",
+      "description": "Der Open-Source-Chat, der Ihr Wissen nutzbar macht. Dieser kennt Starchat. Ihrer kann Ihre Welt kennen.",
+      "orientation": "Ich helfe Ihnen, Starchat zu verstehen, einzurichten und anzupassen.",
+      "followup": "Was möchten Sie mit Starchat aufbauen?",
+      "suggestions": [
+        "Was ist Starchat?",
+        "Zeig mir ein Codebeispiel.",
+        "Wie baue ich meine eigene Installation?"
+      ]
+    }
+  },
+  "query_aliases": {
+    "installation": [
+      "setup",
+      "composer"
+    ],
+    "install": [
+      "setup",
+      "composer"
+    ],
+    "wissen": [
+      "knowledge"
+    ],
+    "quellen": [
+      "knowledge"
+    ],
+    "sicherheit": [
+      "security"
+    ],
+    "schutz": [
+      "security"
+    ],
+    "styles": [
+      "branding"
+    ],
+    "design": [
+      "branding"
+    ],
+    "verlauf": [
+      "history"
+    ],
+    "code": [
+      "examples"
+    ]
+  }
+}
