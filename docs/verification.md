@@ -19,3 +19,12 @@ checks establish observed behavior, not immunity to every possible injection.
 The complete installation can be cloned and indexed without provider credentials.
 An operator must supply their own approved connection before questions can be answered.
 Production release evidence remains operator-owned outside this public repository.
+
+The public site was verified on 9 October 2026 as Build 1 from
+2df762c4f5194784e1326118c5f3c90dd7470556, using engine v0.1.2 and eight documents.
+A fresh clone installed its locked Composer dependencies and built the index.
+Three production responses were read: installation instructions, an unrelated
+request and a PHP example. The example displayed syntax colors, copied exactly
+and linked to tagged GitHub files with line anchors. The page fits a 393-pixel
+viewport; long code scrolls inside its block. Private paths reject access and
+foreign-origin chat requests return 403. Repository Actions remain disabled.
