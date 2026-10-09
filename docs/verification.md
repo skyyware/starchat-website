@@ -200,3 +200,28 @@ synthetic-transport test verifies reload recovery, competing tabs, reset defeati
 a late reply and automatic recovery after returning online. Neither test inserts
 messages into an existing visitor conversation. Final activation and live checks
 remain separate from these candidate results.
+
+## Build 9 live verification, 9 October 2026
+
+Build 9 from 479f211e3a9e703238a66b65c18aef968fff34b5 was activated at
+21:34:15 UTC with Starchat v0.2.1 and fourteen reviewed articles. Build 8 was
+prepared but never activated; the later source clarifies the existing ChatGPT
+account in both legal notices. The bounded provider wording promises neither a
+business data-processing agreement nor disabled training or fixed retention.
+
+A real request against the final prepared corpus correctly explained the single
+automatic recovery after sixty seconds, no repeated question, reset cancellation
+and the remaining manual retry. It returned no links and passed independent
+review in 7.30 seconds. After activation, the requested one-sentence answer about
+sending messages was accurate and contained no steps or links; independent review
+completed within its 6.87-second total. These are functional observations, not
+performance guarantees.
+
+Twenty-seven live HTTP checks passed, including both legal languages, three
+legacy legal redirects, the exact versioned JavaScript modules, released branding,
+D-DIN, five affected resource pages and protected-file/origin boundaries. Native
+mobile legal rendering at 393 CSS pixels has no horizontal overflow, uses the
+released D-DIN and preserves readable sections and navigation. The white page,
+simple red star and actual deployed asset bytes match the reviewed candidate.
+Existing conversations retain their storage identity. Documentation-only follow-up
+commits do not require a new build.
