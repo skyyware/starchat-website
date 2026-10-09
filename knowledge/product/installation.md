@@ -2,10 +2,10 @@
 id: "starchat-installation"
 entity: "starchat"
 title: "Start with the questions people ask"
-source: "https://github.com/skyyware/starchat/blob/v0.2.0/docs/installation.md"
+source: "https://github.com/skyyware/starchat/blob/v0.2.1/docs/installation.md"
 retrieved_at: "2026-10-09"
 review_status: "reviewed"
-source_version: "skyyware/starchat v0.2.0"
+source_version: "skyyware/starchat v0.2.1"
 public_path: "/resources/installation"
 topic_terms: ["start", "starting", "setup", "eigener", "begin", "beginnen", "einrichten", "own"]
 links: [{"label": "Start with the questions people ask", "url": "https://chat.stage.dev/resources/installation"}, {"label": "Explore technical setup with Stage", "url": "https://stage.dev/?q=How%20do%20I%20build%20my%20own%20Starchat%20installation%20on%20Stage%3F%20Explain%20the%20current%20setup%20and%20knowledge%20requirements."}]

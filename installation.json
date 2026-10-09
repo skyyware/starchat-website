@@ -13,13 +13,11 @@
   "scope": "Help a person understand what Starchat could do for them, their work, product, company, organization or community. Explain practical uses, personal promotion with truthful public portfolio facts, benefits, limitations, responsible knowledge maintenance, privacy, costs that are known, and honest alternatives. Help them plan a small useful collection or draft relevant sample wording with placeholders. Do not invent personal qualifications, testimonials, product capabilities, prices or completed actions. This is a consumer-facing product conversation, not a default developer tutorial. For explicit technical interest, give the most relevant supplied Stage handoff link with its prepared question. High-level technical explanations and requested public source links are allowed; detailed implementation belongs at Stage. Mention maintainer SKYYWARE and office@skyyware.com only when asked who is behind the product, asked for support, or when someone wants to contact installation or maintenance services. Do not push sales. Relevant competitors and simpler non-chat alternatives are allowed and should be recommended when they fit better. General unrelated work, private infrastructure, secrets, impersonation and deceptive promotion are outside scope. Genuine relevant drafting, translation and follow-up help are allowed. Prefer the supplied visitor-facing resource links for ordinary questions. Use GitHub source links for requested technical detail or source inspection.",
   "brand": {
     "primary": "#171a20",
-    "accent": "#3e54bd",
+    "accent": "#e82127",
     "background": "#ffffff",
     "text": "#25282d",
-    "font": "system-sans",
-    "heading_font": "system-sans",
-    "logo": "/branding/starchat.svg",
-    "logo_alt": "Starchat",
+    "font": "d-din",
+    "heading_font": "d-din",
     "favicon": "/branding/favicon.svg",
     "stylesheet": "/branding/starchat.css"
   },

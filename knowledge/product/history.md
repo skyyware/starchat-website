@@ -2,10 +2,10 @@
 id: "starchat-history"
 entity: "starchat"
 title: "Continue the conversation"
-source: "https://github.com/skyyware/starchat/blob/v0.2.0/public/conversation.js"
+source: "https://github.com/skyyware/starchat/blob/v0.2.1/public/conversation.js"
 retrieved_at: "2026-10-09"
 review_status: "reviewed"
-source_version: "skyyware/starchat v0.2.0"
+source_version: "skyyware/starchat v0.2.1"
 public_path: "/resources/history"
 topic_terms: ["conversation", "history", "verlauf", "gespräch", "saved", "speichern", "reload"]
 links: [{"label": "Continue the conversation", "url": "https://chat.stage.dev/resources/history"}]
@@ -18,3 +18,5 @@ The model receives a bounded recent part of the conversation, with a short summa
 Questions can build on the current subject. For example, a person can ask for a shorter explanation or help drafting a relevant inquiry. An offered follow-up should work. The chat should not claim to send the draft or perform the action.
 
 A link with a prepared question opens an editable draft in the destination chat. It preserves that destination's existing conversation and does not send the question automatically. The question is removed from the visible address after loading. URLs are not a private place for sensitive information, so handoff questions should be general and contain no personal details.
+
+If a connection is interrupted or a page is reloaded while an answer is pending, the chat makes one automatic attempt to recover the same question after the original sixty-second window. The question is not duplicated. A new conversation cancels that attempt. If recovery also fails, the question can be retried manually. Completed answers are not sent again.

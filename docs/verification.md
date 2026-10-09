@@ -175,3 +175,28 @@ foreign-origin rejection. Composer checks and dependency advisory audits passed.
 Runtime evidence remains operator-owned outside this public repository. The
 approved model profile, browser history and legal route remain intact. Subsequent
 verification and design-documentation commits do not require another deployment.
+
+## Starchat 0.2.1 candidate, 9 October 2026
+
+The reference adopts engine 081f4bc468787aa030c993b2a993b12c524b0c0e.
+Five affected visitor articles were reviewed against the tagged source:
+conversation recovery, branding, starting an installation, operations and the
+technical continuation. Fourteen owned articles and their exact source bindings
+pass the installation check. Unchanged articles retain their existing versioned
+provenance rather than receiving a date-only refresh.
+
+The identity now uses the engine's self-hosted D-DIN, a simple red star and white
+surfaces. The small text-link shade has 6.42:1 contrast on white; the brighter
+star and icon-button accent is #e82127. The bundled Inter payload and former mark
+are removed. Native local checks covered desktop and actual 360- and 320-CSS-pixel
+widths, with no horizontal overflow. Four questions use two desktop columns and
+one mobile column. The compact header keeps star and name on one line; the empty
+composer receives focus. Legal sections render address line breaks, contact links,
+headings and navigation correctly.
+
+Engine tests and isolated real-provider probes verify optional links with
+independent review and rejection of a credential request. A separate native
+synthetic-transport test verifies reload recovery, competing tabs, reset defeating
+a late reply and automatic recovery after returning online. Neither test inserts
+messages into an existing visitor conversation. Final activation and live checks
+remain separate from these candidate results.

@@ -1,5 +1,5 @@
 {
-  "version": "0.2.0",
+  "version": "0.2.1",
   "sources": [
     {
       "document": "knowledge/product/overview.md",
@@ -47,14 +47,14 @@
     },
     {
       "document": "knowledge/product/installation.md",
-      "source": "https://github.com/skyyware/starchat/blob/v0.2.0/docs/installation.md",
+      "source": "https://github.com/skyyware/starchat/blob/v0.2.1/docs/installation.md",
       "source_file": "docs/installation.md",
       "package": "skyyware/starchat",
-      "source_version": "v0.2.0",
-      "source_sha256": "14c860996a6125161f0fc798eddab7e07657d034de0f1cf4583c8345be080f67",
-      "document_sha256": "2056ca7943daf6eb0692eaf706072a6c07fb3e63a787eaec5be99991d9c82ef4",
+      "source_version": "v0.2.1",
+      "source_sha256": "1a30d1e8f5e47f6e69edbd16041a18da393e7939602b31b96f85cf5dd4f9cf9d",
+      "document_sha256": "02ddc44c92b5832fab7fd7f3f2b0bf21e6bd4b16f9ba4d7d2bcdc4a8177465aa",
       "reviewed_at": "2026-10-09",
-      "method": "Reviewed against the named implementation and public contract; prepared separately for consumer questions."
+      "method": "Reviewed against v0.2.1 candidate source, including recovery, branding and retained operator responsibilities; visitor wording reviewed separately."
     },
     {
       "document": "knowledge/product/knowledge.md",
@@ -69,25 +69,25 @@
     },
     {
       "document": "knowledge/product/branding.md",
-      "source": "https://github.com/skyyware/starchat/blob/v0.2.0/examples/installation/installation.json",
-      "source_file": "examples/installation/installation.json",
+      "source": "https://github.com/skyyware/starchat/blob/v0.2.1/docs/installation.md",
+      "source_file": "docs/installation.md",
       "package": "skyyware/starchat",
-      "source_version": "v0.2.0",
-      "source_sha256": "ea77afe7411abad41ce17c47f29a3b3d1869f678e54cb5da3ddf544e10179f6b",
-      "document_sha256": "82b8d2c25b8e7548d9aa60835a6e7bb3d820e0311149eb265c2a971ad43738c1",
+      "source_version": "v0.2.1",
+      "source_sha256": "1a30d1e8f5e47f6e69edbd16041a18da393e7939602b31b96f85cf5dd4f9cf9d",
+      "document_sha256": "e1b9e00e074c4042394ae7eb52c0b410f5ca0f2f815f28ad1265f70d924a64b3",
       "reviewed_at": "2026-10-09",
-      "method": "Reviewed against the named implementation and public contract; prepared separately for consumer questions."
+      "method": "Reviewed against v0.2.1 candidate source, including recovery, branding and retained operator responsibilities; visitor wording reviewed separately."
     },
     {
       "document": "knowledge/product/history.md",
-      "source": "https://github.com/skyyware/starchat/blob/v0.2.0/public/conversation.js",
+      "source": "https://github.com/skyyware/starchat/blob/v0.2.1/public/conversation.js",
       "source_file": "public/conversation.js",
       "package": "skyyware/starchat",
-      "source_version": "v0.2.0",
-      "source_sha256": "2cd8e871bd2c42f725eee9ea87d6a5792213fb5708767eb6fc353e0698d54f72",
-      "document_sha256": "809f1b21d686dcfc10fd0cf64f1ce77fabd69e9fe9447f70943912156c2b182d",
+      "source_version": "v0.2.1",
+      "source_sha256": "34202f6e6201a4cf6c2c4394c737c176f42d2c53aab45ef1debc77c57ab7c846",
+      "document_sha256": "2d95a42287609feb6c7e26c8d595062b81602571f3fde1190ea4d45859390dd3",
       "reviewed_at": "2026-10-09",
-      "method": "Reviewed against the named implementation and public contract; prepared separately for consumer questions."
+      "method": "Reviewed against v0.2.1 candidate source, including recovery, branding and retained operator responsibilities; visitor wording reviewed separately."
     },
     {
       "document": "knowledge/product/security.md",
@@ -102,25 +102,25 @@
     },
     {
       "document": "knowledge/product/operations.md",
-      "source": "https://github.com/skyyware/starchat/blob/v0.2.0/docs/installation.md",
+      "source": "https://github.com/skyyware/starchat/blob/v0.2.1/docs/installation.md",
       "source_file": "docs/installation.md",
       "package": "skyyware/starchat",
-      "source_version": "v0.2.0",
-      "source_sha256": "14c860996a6125161f0fc798eddab7e07657d034de0f1cf4583c8345be080f67",
-      "document_sha256": "8ecd30136a208ba89f3ef8fb86c420f55344e32e6db280de9f65673b022cf041",
+      "source_version": "v0.2.1",
+      "source_sha256": "1a30d1e8f5e47f6e69edbd16041a18da393e7939602b31b96f85cf5dd4f9cf9d",
+      "document_sha256": "777871d8ea0609fd11ce14116c258a2ef84950a03d668041be01867f16b15eb4",
       "reviewed_at": "2026-10-09",
-      "method": "Reviewed against the named implementation and public contract; prepared separately for consumer questions."
+      "method": "Reviewed against v0.2.1 candidate source, including recovery, branding and retained operator responsibilities; visitor wording reviewed separately."
     },
     {
       "document": "knowledge/product/code-examples.md",
-      "source": "https://github.com/skyyware/starchat/blob/v0.2.0/docs/installation.md",
+      "source": "https://github.com/skyyware/starchat/blob/v0.2.1/docs/installation.md",
       "source_file": "docs/installation.md",
       "package": "skyyware/starchat",
-      "source_version": "v0.2.0",
-      "source_sha256": "14c860996a6125161f0fc798eddab7e07657d034de0f1cf4583c8345be080f67",
-      "document_sha256": "597067a93c863b251d686fc7c91b1210a8058f2e1e298aec7d66f0edb08254cf",
+      "source_version": "v0.2.1",
+      "source_sha256": "1a30d1e8f5e47f6e69edbd16041a18da393e7939602b31b96f85cf5dd4f9cf9d",
+      "document_sha256": "13655e4b9b48d9fce135adc9b0337f8da934dc8f357158aad1d2a08b5b4590ad",
       "reviewed_at": "2026-10-09",
-      "method": "Reviewed against the named implementation and public contract; prepared separately for consumer questions."
+      "method": "Reviewed against v0.2.1 candidate source, including recovery, branding and retained operator responsibilities; visitor wording reviewed separately."
     },
     {
       "document": "knowledge/product/alternatives.md",

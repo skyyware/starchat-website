@@ -1,48 +1,54 @@
 ## Legal notice
 
-SKYYWARE UG
-Aichenbachstraße 27
+**Skyyware UG (haftungsbeschränkt)**\
+Aichenbachstraße 27\
 73614 Schorndorf, Germany
 
-Represented by Sascha Dobrochynskyy. Email: office@skyyware.com.
+Represented by Sascha Dobrochynskyy.\
+[office@skyyware.com](mailto:office@skyyware.com)
 
-Register court: Stuttgart. HRB 740570. VAT identification number: DE281935680.
-
-Starchat is provided by SKYYWARE UG. This installation explains the open-source
-Starchat project using public documentation. Answers may contain errors. Code
-examples are displayed for review; this chat does not run them or deploy software.
+Commercial register: Amtsgericht Stuttgart, HRB 740570.\
+VAT identification number: DE281935680.
 
 ## Privacy
 
-The full conversation is stored locally in this browser. It remains after reload
-and browser restart. “New conversation” removes this installation's history,
-including in other open tabs. Clearing website data also removes it. Other people
-with access to this browser profile may see it. If storage fails, new messages
-remain only in the open tab and the interface displays a notice.
+The provider named above is the controller. Please use the same contact address
+for privacy inquiries.
 
-Your question, a limited recent conversation history, an optional short summary
-and relevant public sources are processed by OpenAI through the Codex connection
-to create an answer and check it before display. Please do not enter personal or
-confidential information. The application does not intentionally write questions
-and answers to server files or databases. This is not a promise about processing
-by the AI provider; its terms and the settings of the account used apply.
+### Your conversation
 
-A link may contain a prepared question. Its text reaches the destination server
-as part of the initial URL, then becomes an editable draft and is removed from
-the address. It is sent to the model only when you submit it. Technical handoff
-links to Stage contain a general question, not this conversation. Do not put
-personal or confidential details in such links.
+When you submit a question, it is sent to OpenAI with a limited conversation
+excerpt, an optional short summary and relevant public sources. OpenAI creates
+and checks the answer. Do not enter personal or confidential information. Use is
+voluntary; no answer is requested until you submit a question.
 
-We do not create visitor accounts, analytics profiles or conversation cookies.
-Fonts are served locally. Technically necessary network data is processed when
-you visit the website. Access and error logs for this public application are
-disabled. External links open a new tab and the linked operator's privacy rules
-then apply. No applications, purchases or messages are submitted on your behalf.
+Your browser stores the conversation until you choose **New conversation** or
+clear website data. Other people with access to this browser profile may see it.
+The application keeps no server-side conversation archive. Clearing browser
+history does not erase data already sent to OpenAI. Its applicable terms and
+account settings govern processing, storage and international transfers. See
+[OpenAI's privacy notice](https://openai.com/policies/eu-privacy-policy/) and
+[Codex data controls](https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan).
 
-Contact the controller, SKYYWARE UG at the address above, for privacy questions.
-Subject to applicable legal requirements you may request access, correction,
-erasure, restriction and data portability, object to processing based on legitimate
-interests and complain to a data protection supervisory authority. In Baden-Württemberg
-this is the State Commissioner for Data Protection and Freedom of Information.
+Question links may contain an editable draft. This text first reaches the server
+in the URL, then is removed from the address. It is sent to the model only when
+you submit it. Do not use these links for personal or confidential information.
 
-Version: 9 October 2026.
+### Website operation
+
+The public chat uses no cookies, advertising or analytics. Browser storage
+supports the requested conversation; fonts are served locally. Necessary network
+data is processed to deliver the website. Access and error logs for this
+application are disabled. External websites are contacted when you open their links.
+
+### Your rights
+
+Subject to the applicable legal requirements, you have rights to access,
+rectification, erasure, restriction and data portability. You may object to
+processing based on legitimate interests on grounds relating to your situation.
+You may complain to a data protection authority, such as the State Commissioner
+for Data Protection and Freedom of Information Baden-Württemberg.
+
+The chat makes no decisions about you with legal or similarly significant effects.
+
+Last reviewed: 9 October 2026.
