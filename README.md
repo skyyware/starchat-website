@@ -25,7 +25,7 @@ vendor/bin/starchat index
 
 Configure HTTPS with `public/` as the document root and a front-controller rule.
 Provision your own approved model connection using the
-[engine installation guide](https://github.com/skyyware/starchat/blob/v0.1.2/docs/installation.md).
+[engine installation guide](https://github.com/skyyware/starchat/blob/v0.1.3/docs/installation.md).
 Credentials stay outside this repository. Nothing logs you into a provider,
 purchases access, deploys a server or schedules updates automatically.
 

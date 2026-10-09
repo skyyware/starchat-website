@@ -2,12 +2,12 @@
 id: "starchat-security"
 entity: "starchat"
 title: "Scope and security boundaries"
-source: "https://github.com/skyyware/starchat/blob/v0.1.2/SECURITY.md#L1-L54"
+source: "https://github.com/skyyware/starchat/blob/v0.1.3/SECURITY.md#L1-L54"
 retrieved_at: "2026-10-09"
 review_status: "reviewed"
 public_path: "/resources/security"
 topic_terms: ["security", "scope", "injection", "sicherheit", "schutz"]
-links: [{"label": "Scope and security boundaries — source", "url": "https://github.com/skyyware/starchat/blob/v0.1.2/SECURITY.md#L1-L54"}, {"label": "Scope and security boundaries — guide", "url": "https://chat.stage.dev/resources/security"}]
+links: [{"label": "Scope and security boundaries — source", "url": "https://github.com/skyyware/starchat/blob/v0.1.3/SECURITY.md#L1-L54"}, {"label": "Scope and security boundaries — guide", "url": "https://chat.stage.dev/resources/security"}]
 ---
 
 Every installation defines its permitted purpose on the server. Each request rebuilds those instructions. Current messages, old assistant turns, compact history, retrieved sources and code are untrusted data. None can grant new tools, change the installation or expand its purpose.

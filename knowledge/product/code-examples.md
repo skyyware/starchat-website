@@ -2,12 +2,12 @@
 id: "starchat-code-examples"
 entity: "starchat"
 title: "Code examples and exact source links"
-source: "https://github.com/skyyware/starchat/blob/v0.1.2/src/App.php#L1-L70"
+source: "https://github.com/skyyware/starchat/blob/v0.1.3/src/App.php#L1-L70"
 retrieved_at: "2026-10-09"
 review_status: "reviewed"
 public_path: "/resources/code-examples"
 topic_terms: ["code", "examples", "php", "example", "beispiel"]
-links: [{"label": "Complete front controller on GitHub", "url": "https://github.com/skyyware/starchat-website/blob/v0.1.0/public/index.php#L1-L6"}, {"label": "Code examples and exact source links — source", "url": "https://github.com/skyyware/starchat/blob/v0.1.2/src/App.php#L1-L70"}, {"label": "Code examples and exact source links — guide", "url": "https://chat.stage.dev/resources/code-examples"}]
+links: [{"label": "Complete front controller on GitHub", "url": "https://github.com/skyyware/starchat-website/blob/v0.1.0/public/index.php#L1-L6"}, {"label": "Code examples and exact source links — source", "url": "https://github.com/skyyware/starchat/blob/v0.1.3/src/App.php#L1-L70"}, {"label": "Code examples and exact source links — guide", "url": "https://chat.stage.dev/resources/code-examples"}]
 ---
 
 Starchat shows code as text with syntax colors, horizontal scrolling and a copy button. It never executes a snippet. Supported answer languages are php, json, javascript, bash, yaml, text, css and html. Answers can include up to two code blocks with up to 6000 characters each. Copying requires a user click.

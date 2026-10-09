@@ -28,3 +28,10 @@ request and a PHP example. The example displayed syntax colors, copied exactly
 and linked to tagged GitHub files with line anchors. The page fits a 393-pixel
 viewport; long code scrolls inside its block. Private paths reject access and
 foreign-origin chat requests return 403. Repository Actions remain disabled.
+
+The v0.1.3 adoption on 9 October changes the requested default to gpt-6-astra,
+low reasoning and Fast, while retaining independent review and content-free
+phase diagnostics. The bounded engine comparison and quality checks are recorded
+in the tagged engine's docs/performance.md. Knowledge links and source hashes
+follow v0.1.3; the installation guide and operations article explain the actual
+profile and diagnostic behavior. Production adoption is verified separately.

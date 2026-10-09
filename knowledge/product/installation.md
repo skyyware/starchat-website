@@ -2,12 +2,12 @@
 id: "starchat-installation"
 entity: "starchat"
 title: "Build your own installation"
-source: "https://github.com/skyyware/starchat/blob/v0.1.2/docs/installation.md#L1-L70"
+source: "https://github.com/skyyware/starchat/blob/v0.1.3/docs/installation.md#L1-L70"
 retrieved_at: "2026-10-09"
 review_status: "reviewed"
 public_path: "/resources/installation"
 topic_terms: ["installation", "install", "setup", "composer"]
-links: [{"label": "Complete front controller on GitHub", "url": "https://github.com/skyyware/starchat-website/blob/v0.1.0/public/index.php#L1-L6"}, {"label": "Build your own installation — source", "url": "https://github.com/skyyware/starchat/blob/v0.1.2/docs/installation.md#L1-L70"}, {"label": "Build your own installation — guide", "url": "https://chat.stage.dev/resources/installation"}]
+links: [{"label": "Complete front controller on GitHub", "url": "https://github.com/skyyware/starchat-website/blob/v0.1.0/public/index.php#L1-L6"}, {"label": "Build your own installation — source", "url": "https://github.com/skyyware/starchat/blob/v0.1.3/docs/installation.md#L1-L70"}, {"label": "Build your own installation — guide", "url": "https://chat.stage.dev/resources/installation"}]
 ---
 
 Start from the public skyyware/starchat-website repository. It is a real separate installation of the shared skyyware/starchat Composer package. It requires PHP 8.4 or later, mbstring, PDO SQLite with FTS5 and Composer. No frontend build is required.
@@ -37,4 +37,4 @@ require dirname(__DIR__) . '/vendor/autoload.php';
 Starchat\App::run(dirname(__DIR__));
 ```
 
-The package installation guide documents the STARCHAT_RUNTIME, STARCHAT_CODEX_BINARY, STARCHAT_CODEX_HOME, STARCHAT_CODEX_WORK, STARCHAT_MODEL, STARCHAT_REASONING_EFFORT, STARCHAT_SERVICE_TIER and STARCHAT_MODEL_CATALOG settings. Defaults are gpt-6.1-sol, low reasoning and standard service. Model availability is account-dependent; nothing purchases or switches access automatically.
+The package installation guide documents the STARCHAT_RUNTIME, STARCHAT_CODEX_BINARY, STARCHAT_CODEX_HOME, STARCHAT_CODEX_WORK, STARCHAT_MODEL, STARCHAT_REASONING_EFFORT, STARCHAT_SERVICE_TIER and STARCHAT_MODEL_CATALOG settings. Defaults are gpt-6-astra, low reasoning and Fast service. An explicit STARCHAT_SERVICE_TIER=standard setting disables the optional tier; unsupported profiles fail rather than silently changing models. Model availability is account-dependent; nothing purchases or switches access automatically.

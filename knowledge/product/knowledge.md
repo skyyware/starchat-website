@@ -2,12 +2,12 @@
 id: "starchat-knowledge"
 entity: "starchat"
 title: "Give your chat reliable knowledge"
-source: "https://github.com/skyyware/starchat/blob/v0.1.2/docs/knowledge.md#L1-L50"
+source: "https://github.com/skyyware/starchat/blob/v0.1.3/docs/knowledge.md#L1-L50"
 retrieved_at: "2026-10-09"
 review_status: "reviewed"
 public_path: "/resources/knowledge"
 topic_terms: ["knowledge", "markdown", "sources", "index", "wissen", "quellen"]
-links: [{"label": "Give your chat reliable knowledge — source", "url": "https://github.com/skyyware/starchat/blob/v0.1.2/docs/knowledge.md#L1-L50"}, {"label": "Give your chat reliable knowledge — guide", "url": "https://chat.stage.dev/resources/knowledge"}]
+links: [{"label": "Give your chat reliable knowledge — source", "url": "https://github.com/skyyware/starchat/blob/v0.1.3/docs/knowledge.md#L1-L50"}, {"label": "Give your chat reliable knowledge — guide", "url": "https://chat.stage.dev/resources/knowledge"}]
 ---
 
 Each installation owns knowledge/<category>/*.md files. Each file has YAML front matter and a Markdown body. entity must match the installation ID. id, title, source, retrieved_at and review_status are required. Source and action URLs use HTTPS.

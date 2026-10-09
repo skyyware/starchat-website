@@ -2,12 +2,12 @@
 id: "starchat-branding"
 entity: "starchat"
 title: "Make it look like your organization"
-source: "https://github.com/skyyware/starchat/blob/v0.1.2/examples/installation/installation.json#L1-L40"
+source: "https://github.com/skyyware/starchat/blob/v0.1.3/examples/installation/installation.json#L1-L40"
 retrieved_at: "2026-10-09"
 review_status: "reviewed"
 public_path: "/resources/branding"
 topic_terms: ["branding", "design", "styles", "colors", "logo"]
-links: [{"label": "This installation on GitHub", "url": "https://github.com/skyyware/starchat-website"}, {"label": "Make it look like your organization — source", "url": "https://github.com/skyyware/starchat/blob/v0.1.2/examples/installation/installation.json#L1-L40"}, {"label": "Make it look like your organization — guide", "url": "https://chat.stage.dev/resources/branding"}]
+links: [{"label": "This installation on GitHub", "url": "https://github.com/skyyware/starchat-website"}, {"label": "Make it look like your organization — source", "url": "https://github.com/skyyware/starchat/blob/v0.1.3/examples/installation/installation.json#L1-L40"}, {"label": "Make it look like your organization — guide", "url": "https://chat.stage.dev/resources/branding"}]
 ---
 
 Appearance belongs to the installation. installation.json configures primary, accent, background and text colors, plus body and heading fonts. Available font keys are source-sans, roboto-slab, d-din, system-sans and system-serif.
