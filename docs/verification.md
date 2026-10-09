@@ -61,3 +61,14 @@ Explicit operator profiles remain unchanged; rejected requests are not retried.
 The genuine current catalog still advertises Fast only. Engine deterministic
 checks and one real automatic-profile request passed, including independent review.
 Source links and hashes now follow v0.1.4; the reference entrypoint remains v0.1.0.
+
+Build 4 from 8c1a920c53cc94e2cbd4e829aeb428fadb32e33c went live at 14:50:37 UTC
+with engine v0.1.4, eight documents and the aggregate limiter enabled. Its auto
+profile resolves to Fast in the current genuine catalog. After reloading the
+existing browser conversation, a fresh question correctly named v0.1.4 despite
+older answers mentioning v0.1.3. It supplied the complete PHP entrypoint and the
+reference v0.1.0 line link. The full answer was read and accepted. Copy preserved
+the displayed code exactly; syntax colors and internal code scrolling were checked
+in the native browser. All eight revised GitHub source links returned 200 and
+matched the tagged source hashes. No new model comparison or genuine Ultrafast
+completion is claimed. Documentation-only follow-up commits need no deployment.
