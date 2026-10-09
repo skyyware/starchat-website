@@ -2,12 +2,12 @@
 id: "starchat-installation"
 entity: "starchat"
 title: "Build your own installation"
-source: "https://github.com/skyyware/starchat/blob/v0.1.4/docs/installation.md#L1-L70"
+source: "https://github.com/skyyware/starchat/blob/v0.1.7/docs/installation.md#L1-L70"
 retrieved_at: "2026-10-09"
 review_status: "reviewed"
 public_path: "/resources/installation"
 topic_terms: ["installation", "install", "setup", "composer"]
-links: [{"label": "Complete front controller · reference v0.1.0", "url": "https://github.com/skyyware/starchat-website/blob/v0.1.0/public/index.php#L1-L6"}, {"label": "Build your own installation — source", "url": "https://github.com/skyyware/starchat/blob/v0.1.4/docs/installation.md#L1-L70"}, {"label": "Build your own installation — guide", "url": "https://chat.stage.dev/resources/installation"}]
+links: [{"label": "Complete front controller · reference v0.1.0", "url": "https://github.com/skyyware/starchat-website/blob/v0.1.0/public/index.php#L1-L6"}, {"label": "Build your own installation — source", "url": "https://github.com/skyyware/starchat/blob/v0.1.7/docs/installation.md#L1-L70"}, {"label": "Build your own installation — guide", "url": "https://chat.stage.dev/resources/installation"}]
 ---
 
 Start from the public skyyware/starchat-website repository. It is a real separate installation of the shared skyyware/starchat Composer package. It requires PHP 8.4 or later, mbstring, PDO SQLite with FTS5 and Composer. No frontend build is required.
@@ -26,7 +26,7 @@ vendor/bin/starchat index
 
 Serve only public/ through HTTPS. Non-file requests go to public/index.php. Keep .runtime and provider credentials outside the web root and Git. Provision your own approved model connector. Copying a repository does not provide authentication, a server, paid access or a deployment.
 
-As reviewed on 9 October 2026, this installation uses Starchat engine v0.1.4. The linked complete front controller is from the separate reference installation tag v0.1.0 and is unchanged here. The engine and reference installation have independent version numbers. The engine source link points to v0.1.4; the front-controller link points to v0.1.0.
+As reviewed on 9 October 2026, this installation uses Starchat engine v0.1.7. The linked complete front controller is from the separate reference installation tag v0.1.0 and is unchanged here. The engine and reference installation have independent version numbers. The engine source link points to v0.1.7; the front-controller link points to v0.1.0.
 
 The complete front controller is:
 

@@ -25,9 +25,16 @@ vendor/bin/starchat index
 
 Configure HTTPS with `public/` as the document root and a front-controller rule.
 Provision your own approved model connection using the
-[engine installation guide](https://github.com/skyyware/starchat/blob/v0.1.4/docs/installation.md).
+[engine installation guide](https://github.com/skyyware/starchat/blob/v0.1.7/docs/installation.md).
 Credentials stay outside this repository. Nothing logs you into a provider,
 purchases access, deploys a server or schedules updates automatically.
+
+This installation also demonstrates the optional direct Markdown connector.
+`config/markdown-sources.json` selects the engine's canonical connector guide
+from the installed Composer package, with a reviewed digest and exact version.
+There is no second copy of that guide. Adapt this manifest to your approved
+documentation or remove `markdown_sources` to use only ordinary `knowledge/`.
+An allowlisted file may inform public answers; never list private documents.
 
 ## Follow the pieces
 
@@ -36,6 +43,7 @@ purchases access, deploys a server or schedules updates automatically.
 - [Knowledge](knowledge/product): the facts used to answer questions
 - [Styles](public/branding/starchat.css): this installation's appearance
 - [Source manifest](knowledge/sources.json): review provenance
+- [Canonical Markdown input](config/markdown-sources.json): approved files and review bindings
 
 Questions, examples and suggestions are tested against this installation's
 purpose. Code is displayed, never executed. Review generated snippets before

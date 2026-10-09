@@ -90,3 +90,20 @@ HTTPS entrypoint answer arrived in 7.878 seconds and matched public/index.php
 and its tagged source link. No application or interface files changed; only
 release metadata and the two Composer root commit references differ. Later
 documentation commits do not require another deployment.
+
+The next adoption locks engine v0.1.7 and demonstrates its optional canonical
+Markdown connector. One reviewed manifest entry selects the original package
+guide; no second editorial copy is created. The index counts nine original
+sources. The public resource body equals the installed guide byte for byte,
+search finds its sections, and all five checked application/resource routes
+return 200. The two version-describing guides follow the new tagged source;
+the remaining six guides retain their original reviewed provenance. Composer
+validation and advisory audit pass. Local native desktop and 393-pixel checks
+cover the actual guide, intact JSON code and internal code scrolling.
+
+The controlled writing-follow-up comparison used identical knowledge and model
+settings, with two alternating requests per variant. All four complete answers
+were read. Median application time decreased from 11.65 to 7.44 seconds as the
+redundant source-selection call was omitted; independent answer review remains.
+This small sample excludes browser transport and is not a latency guarantee.
+Production activation and the new guide's real model answer remain separate.

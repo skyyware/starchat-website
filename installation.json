@@ -94,5 +94,6 @@
     "code": [
       "examples"
     ]
-  }
+  },
+  "markdown_sources": "config/markdown-sources.json"
 }

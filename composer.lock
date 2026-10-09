@@ -666,22 +666,23 @@
         },
         {
             "name": "skyyware/starchat",
-            "version": "v0.1.4",
+            "version": "v0.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/skyyware/starchat.git",
-                "reference": "8a9def481d08bcb4bf763983283b6c170be38188"
+                "reference": "238f56031bb3188a358966b53d12f768c3b0da4b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/skyyware/starchat/zipball/8a9def481d08bcb4bf763983283b6c170be38188",
-                "reference": "8a9def481d08bcb4bf763983283b6c170be38188",
+                "url": "https://api.github.com/repos/skyyware/starchat/zipball/238f56031bb3188a358966b53d12f768c3b0da4b",
+                "reference": "238f56031bb3188a358966b53d12f768c3b0da4b",
                 "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
                 "ext-pdo": "*",
                 "ext-pdo_sqlite": "*",
+                "league/commonmark": "^2.8",
                 "php": "^8.4",
                 "skyyware/stage": "^0.1.5",
                 "skyyware/stage-chat": "^0.1.1",
@@ -718,7 +719,7 @@
                 "source": "https://github.com/skyyware/starchat",
                 "issues": "https://github.com/skyyware/starchat/issues"
             },
-            "time": "2026-10-09T14:41:45+00:00"
+            "time": "2026-10-09T19:01:31+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",

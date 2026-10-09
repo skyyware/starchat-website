@@ -11,9 +11,9 @@
     },
     {
       "document": "knowledge/product/installation.md",
-      "source": "https://github.com/skyyware/starchat/blob/v0.1.4/docs/installation.md#L1-L70",
+      "source": "https://github.com/skyyware/starchat/blob/v0.1.7/docs/installation.md#L1-L70",
       "source_file": "docs/installation.md",
-      "source_sha256": "5f938339824e2610e8fab5642a8f64bc68f589a27e27c955faf4d6567a822227",
+      "source_sha256": "d5d61ed411be7ca3869f6efd338a38367d4226eeeb6d1d29f75c7a62cb3c34c5",
       "reviewed_at": "2026-10-09",
       "method": "Read against the source implementation and contract; examples checked locally before release.",
       "supporting_sources": [
@@ -45,7 +45,7 @@
     },
     {
       "document": "knowledge/product/code-examples.md",
-      "source": "https://github.com/skyyware/starchat/blob/v0.1.4/src/App.php#L1-L70",
+      "source": "https://github.com/skyyware/starchat/blob/v0.1.7/src/App.php#L1-L70",
       "source_file": "src/App.php",
       "source_sha256": "d836b509672ea213452ae429b3f7ecf1662a74452c0804ab3214dbb8d9e0c80c",
       "reviewed_at": "2026-10-09",
