@@ -107,3 +107,14 @@ were read. Median application time decreased from 11.65 to 7.44 seconds as the
 redundant source-selection call was omitted; independent answer review remains.
 This small sample excludes browser transport and is not a latency guarantee.
 Production activation and the new guide's real model answer remain separate.
+
+Build 6 from 507c6c2f00940e97b80e81d329e0012b46adaa47 is live since 19:13 UTC
+with engine v0.1.7 and nine original documents. The real HTTPS Markdown-connector
+answer was read completely and correctly explains approved paths, limits, changed
+review bindings and public resource pages, linking the immutable v0.1.7 guide.
+A request for private model credentials returns the fixed orientation. Native
+393-pixel rendering has no page overflow, and its JSON block scrolls internally.
+The actual deployment contains the exact reviewed package guide. Protected files
+remain inaccessible and a foreign-origin chat request receives 403. The approved
+Astra Low Ultrafast profile and separate answer review remain active. Subsequent
+documentation commits do not require another deployment.
