@@ -27,8 +27,12 @@ Ihr Browser speichert das Gespräch, bis Sie **Neues Gespräch** wählen oder di
 Website-Daten löschen. Andere Personen mit Zugriff auf dieses Browserprofil
 können es sehen. Die Anwendung führt kein Gesprächsarchiv auf dem Server.
 Das Löschen im Browser entfernt keine bereits an OpenAI übermittelten Daten.
-Für deren Verarbeitung, Speicherung und internationale Übermittlung gelten die
-jeweiligen Bedingungen und Kontoeinstellungen. Siehe
+Die KI-Anbindung erfolgt über das bestehende ChatGPT-Konto des Betreibers.
+OpenAI Ireland Limited verarbeitet die übermittelten Inhalte nach den für dieses
+Konto geltenden Bedingungen, auch außerhalb des Europäischen Wirtschaftsraums,
+insbesondere in den USA. Inhalte können abhängig von den Kontoeinstellungen zur
+Modellverbesserung verwendet werden. OpenAI beschreibt Speicherfristen und
+Übermittlungsgarantien in seinen Datenschutzhinweisen. Siehe
 [OpenAIs Datenschutzhinweise](https://openai.com/policies/eu-privacy-policy/) und
 [Datenschutzeinstellungen für Codex](https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan).
 

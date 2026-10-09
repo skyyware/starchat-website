@@ -25,8 +25,12 @@ voluntary; no answer is requested until you submit a question.
 Your browser stores the conversation until you choose **New conversation** or
 clear website data. Other people with access to this browser profile may see it.
 The application keeps no server-side conversation archive. Clearing browser
-history does not erase data already sent to OpenAI. Its applicable terms and
-account settings govern processing, storage and international transfers. See
+data does not erase information already sent to OpenAI. The AI connection uses
+the operator's existing ChatGPT account. OpenAI Ireland Limited processes the
+submitted content under the terms for that account, including outside the
+European Economic Area, particularly in the United States. Depending on the
+account settings, content may be used to improve models. OpenAI describes
+retention periods and transfer safeguards in its privacy notice. See
 [OpenAI's privacy notice](https://openai.com/policies/eu-privacy-policy/) and
 [Codex data controls](https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan).
 
