@@ -5,14 +5,10 @@ accent. It should feel approachable for an individual, company or public service
 The conversation remains the main action. Technical help is a contextual next
 step, rather than the starting point for every visitor.
 
-The Tesla homepage was inspected on 9 October 2026 as a reference for spacing,
-hierarchy and restraint. It uses Universal Sans Text and Universal Sans Display.
-This public reference instead self-hosts Inter 4.1 under the included SIL Open
-Font License, with similar restraint in weight and spacing. No proprietary font
-payload, Tesla artwork or Tesla font files are distributed here.
+The public reference self-hosts Inter 4.1 under the included SIL Open Font
+License. Medium headings, regular body text and generous spacing keep the
+interface readable. No proprietary font payload is distributed here.
 
-- [Tesla](https://www.tesla.com/)
-- [Universal Sans licensing](https://universalsans.com/)
 - [Inter 4.1 release](https://github.com/rsms/inter/releases/tag/v4.1)
 - [Included Inter license](../public/branding/inter-license.txt)
 
