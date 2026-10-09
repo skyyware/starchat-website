@@ -2,12 +2,12 @@
 id: "starchat-history"
 entity: "starchat"
 title: "Conversation history and privacy"
-source: "https://github.com/skyyware/starchat/blob/v0.1.3/public/conversation.js#L1-L70"
+source: "https://github.com/skyyware/starchat/blob/v0.1.4/public/conversation.js#L1-L70"
 retrieved_at: "2026-10-09"
 review_status: "reviewed"
 public_path: "/resources/history"
 topic_terms: ["history", "conversation", "privacy", "verlauf", "context"]
-links: [{"label": "Conversation history and privacy — source", "url": "https://github.com/skyyware/starchat/blob/v0.1.3/public/conversation.js#L1-L70"}, {"label": "Conversation history and privacy — guide", "url": "https://chat.stage.dev/resources/history"}]
+links: [{"label": "Conversation history and privacy — source", "url": "https://github.com/skyyware/starchat/blob/v0.1.4/public/conversation.js#L1-L70"}, {"label": "Conversation history and privacy — guide", "url": "https://chat.stage.dev/resources/history"}]
 ---
 
 The complete visible conversation is stored locally in this browser using LocalStorage. It survives reload and restart until New conversation or clearing website data. Reset is synchronized across tabs for this installation. Other people using the same browser profile may read the conversation.

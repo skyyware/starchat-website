@@ -46,3 +46,18 @@ reference installation v0.1.0 separately. The tagged entrypoint was compared byt
 for byte with the current file and is unchanged. The identical request then
 returned the complete correct PHP and tagged link, with review allowing it.
 This focused correction changes knowledge, not model instructions or review.
+
+Build 3 delivered the focused knowledge correction from
+d14d56ad7c8389044f65b852ec76fe1eba28811a. The original synthetic request returned
+complete correct PHP with its separate reference tag. A native-browser follow-up
+also returned the complete code and exact link; copy preserved every character.
+The first useful browser answer appeared after 12.85 seconds in that single probe.
+Desktop syntax colors and the 393-pixel layout were checked; this is not a latency
+guarantee. The initial rejected answer remains in the private verification evidence.
+
+The next adoption locks engine v0.1.4 and documents its automatic speed preference:
+Ultrafast only with a valid account catalog and supported client, otherwise Fast.
+Explicit operator profiles remain unchanged; rejected requests are not retried.
+The genuine current catalog still advertises Fast only. Engine deterministic
+checks and one real automatic-profile request passed, including independent review.
+Source links and hashes now follow v0.1.4; the reference entrypoint remains v0.1.0.

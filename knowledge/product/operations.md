@@ -2,12 +2,12 @@
 id: "starchat-operations"
 entity: "starchat"
 title: "Test and maintain an installation"
-source: "https://github.com/skyyware/starchat/blob/v0.1.3/docs/installation.md#L1-L70"
+source: "https://github.com/skyyware/starchat/blob/v0.1.4/docs/installation.md#L1-L70"
 retrieved_at: "2026-10-09"
 review_status: "reviewed"
 public_path: "/resources/operations"
 topic_terms: ["operations", "test", "deploy", "update", "maintenance", "version", "latency", "speed", "slow", "Fast"]
-links: [{"label": "Test and maintain an installation — source", "url": "https://github.com/skyyware/starchat/blob/v0.1.3/docs/installation.md#L1-L70"}, {"label": "Test and maintain an installation — guide", "url": "https://chat.stage.dev/resources/operations"}]
+links: [{"label": "Test and maintain an installation — source", "url": "https://github.com/skyyware/starchat/blob/v0.1.4/docs/installation.md#L1-L70"}, {"label": "Test and maintain an installation — guide", "url": "https://chat.stage.dev/resources/operations"}]
 ---
 
 The shared engine is versioned through Composer and the installation commits composer.lock. Updating source code does not deploy it. Before an engine update, review its changes, run composer check in the engine and test the consuming installation. Use composer audit to inspect known dependency advisories.

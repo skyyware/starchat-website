@@ -2,12 +2,12 @@
 id: "starchat-overview"
 entity: "starchat"
 title: "What is Starchat?"
-source: "https://github.com/skyyware/starchat/blob/v0.1.3/README.md#L1-L70"
+source: "https://github.com/skyyware/starchat/blob/v0.1.4/README.md#L1-L70"
 retrieved_at: "2026-10-09"
 review_status: "reviewed"
 public_path: "/resources/overview"
 topic_terms: ["starchat", "product", "overview"]
-links: [{"label": "This installation on GitHub", "url": "https://github.com/skyyware/starchat-website"}, {"label": "What is Starchat? — source", "url": "https://github.com/skyyware/starchat/blob/v0.1.3/README.md#L1-L70"}, {"label": "What is Starchat? — guide", "url": "https://chat.stage.dev/resources/overview"}]
+links: [{"label": "This installation on GitHub", "url": "https://github.com/skyyware/starchat-website"}, {"label": "What is Starchat? — source", "url": "https://github.com/skyyware/starchat/blob/v0.1.4/README.md#L1-L70"}, {"label": "What is Starchat? — guide", "url": "https://chat.stage.dev/resources/overview"}]
 ---
 
 Starchat is an open-source PHP application engine for a focused chat about one product, organization or community. It is built on Stage. The operator owns the installation, its Markdown knowledge, appearance and deployment. Composer supplies the shared engine.
