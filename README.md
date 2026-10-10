@@ -1,6 +1,19 @@
-# Starchat website
+# Archived Starchat self-demo
 
-The working, public installation behind [chat.stage.dev](https://chat.stage.dev).
+This repository is retired under the owner's decision of 10 October 2026.
+Its source and history are preserved for reference. Do not deploy or maintain
+this installation. The successor at chat.stage.dev is the separate
+[Stage chat demo](https://github.com/skyyware/starchat-demo), backed by the
+regular website at [stage.dev](https://stage.dev). The shared Starchat core is
+now private and requires authorized repository access.
+
+The installation notes below describe the historical self-demo, not the current
+service or a recommended new installation. Existing deployment artifacts and
+runtime are retained outside this repository for rollback.
+
+## Historical installation
+
+The former public installation behind [chat.stage.dev](https://chat.stage.dev).
 It helps people explore a chat for themselves, a product, an organization or a
 public service. It uses separately reviewed Markdown and links to useful next
 steps. Technical questions can continue at [Stage](https://stage.dev).

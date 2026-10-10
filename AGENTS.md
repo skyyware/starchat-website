@@ -1,21 +1,13 @@
-# Starchat website
+# Archived installation
 
-This is the public reference installation at chat.stage.dev. The shared engine
-belongs to skyyware/starchat and arrives through Composer. Keep all knowledge
-public and source-backed. No private infrastructure, account metadata or secrets
-belong here. Keep runtime outside Git. Validate configuration, index, source links,
-code examples and actual answers before release. Test desktop and mobile in the
-native browser. Actions and dependency automation stay disabled. Publish explicit
-reviewed paths only. Do not introduce a second engine, workers or scheduled jobs.
+Sascha retired this Starchat self-demo on 10 October 2026. Preserve source,
+history and rollback material. Do not deploy, refresh knowledge, update
+packages, start jobs or reactivate this installation. The active Stage chat at
+chat.stage.dev is owned by the separate public skyyware/starchat-demo repository.
+The regular Stage website runs at stage.dev. Esslingen and Sonnenzeit remain
+active under their own owners; the shared Starchat core is private.
 
-This chat addresses people exploring a use, not developers by default. Give
-honest alternatives when they fit better. Technical interest may continue at
-Stage with a prepared, editable question. Mention the maintainer or service
-contact only when relevant to an explicit inquiry. Preserve ordinary legal access.
-
-Feature, release and relevant fact changes trigger review of the affected owned
-articles. Package docs and visitor knowledge are separate deliverables. Bind
-reviewed sources and articles in knowledge/sources.json, run composer check and
-read the affected real answers. Never renew a review date or digest without
-reviewing the changed meaning. Do not add a timer, external Markdown connector,
-another installation's content or automated model workers.
+The remaining files are historical evidence. Their earlier active-maintenance
+instructions are superseded by this archival rule. Runtime and credentials
+stay outside Git. Changes here require an explicit archival or restoration task.
+Repository Actions and dependency automation remain disabled.
