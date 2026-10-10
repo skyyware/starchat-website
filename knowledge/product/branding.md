@@ -2,10 +2,10 @@
 id: "starchat-branding"
 entity: "starchat"
 title: "Make it feel like you"
-source: "https://github.com/skyyware/starchat/blob/v0.2.1/docs/installation.md"
-retrieved_at: "2026-10-09"
+source: "https://github.com/skyyware/starchat/blob/v0.2.3/docs/installation.md"
+retrieved_at: "2026-10-10"
 review_status: "reviewed"
-source_version: "skyyware/starchat v0.2.1"
+source_version: "skyyware/starchat v0.2.3"
 public_path: "/resources/branding"
 topic_terms: ["brand", "branding", "style", "design", "appearance", "logo", "farben", "gestaltung", "aussehen"]
 links: [{"label": "Make it feel like you", "url": "https://chat.stage.dev/resources/branding"}, {"label": "Explore technical styling with Stage", "url": "https://stage.dev/?q=How%20do%20I%20configure%20the%20name%2C%20logo%2C%20colors%2C%20fonts%20and%20CSS%20of%20my%20own%20Starchat%20installation%20on%20Stage%3F"}]

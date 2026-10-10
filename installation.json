@@ -42,12 +42,12 @@
       "orientation": "I can help you explore what Starchat could do for you, your work or your organization.",
       "followup": "Who would you like your chat to help?",
       "suggestions": [
-        "Could Starchat work for me?",
-        "What can a chat of my own do?",
+        "What is Starchat?",
+        "How could a chat of my own help me?",
+        "Is Starchat right for me?",
         "When is a simple website better?",
-        "Could it introduce my work?",
-        "How could it help our community?",
-        "What would I need to get started?"
+        "What are its limits?",
+        "How do I get started?"
       ]
     },
     "de": {
@@ -56,12 +56,12 @@
       "orientation": "Ich helfe Ihnen herauszufinden, was Starchat für Sie, Ihre Arbeit oder Ihre Organisation leisten kann.",
       "followup": "Wem möchten Sie mit Ihrem Chat helfen?",
       "suggestions": [
+        "Was ist Starchat?",
+        "Wobei kann mir ein eigener Chat helfen?",
         "Passt Starchat zu mir?",
-        "Was kann ein eigener Chat leisten?",
         "Wann ist eine einfache Website besser?",
-        "Kann der Chat meine Arbeit vorstellen?",
-        "Wie hilft er unserer Gemeinde?",
-        "Was brauche ich für den Anfang?"
+        "Wo liegen die Grenzen?",
+        "Wie fange ich an?"
       ]
     }
   },

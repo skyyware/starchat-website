@@ -1,5 +1,5 @@
 {
-  "version": "0.2.1",
+  "version": "0.2.3",
   "sources": [
     {
       "document": "knowledge/product/overview.md",
@@ -47,14 +47,14 @@
     },
     {
       "document": "knowledge/product/installation.md",
-      "source": "https://github.com/skyyware/starchat/blob/v0.2.1/docs/installation.md",
+      "source": "https://github.com/skyyware/starchat/blob/v0.2.3/docs/installation.md",
       "source_file": "docs/installation.md",
       "package": "skyyware/starchat",
-      "source_version": "v0.2.1",
-      "source_sha256": "1a30d1e8f5e47f6e69edbd16041a18da393e7939602b31b96f85cf5dd4f9cf9d",
-      "document_sha256": "02ddc44c92b5832fab7fd7f3f2b0bf21e6bd4b16f9ba4d7d2bcdc4a8177465aa",
-      "reviewed_at": "2026-10-09",
-      "method": "Reviewed against v0.2.1 candidate source, including recovery, branding and retained operator responsibilities; visitor wording reviewed separately."
+      "source_version": "v0.2.3",
+      "source_sha256": "cebb8bed52670978865c423827ded31333c0f216b2a500c27960bd255fe788b4",
+      "document_sha256": "b5eeb491bd8594eb54d1dd56ec3ed06ad7e72c61fec3e76225811330d533540d",
+      "reviewed_at": "2026-10-10",
+      "method": "Reviewed the v0.2.3 installation contract, including broad starting questions and the explicit Fast default. Installation guidance updated; branding and operations statements remain valid without added technical detail."
     },
     {
       "document": "knowledge/product/knowledge.md",
@@ -69,14 +69,14 @@
     },
     {
       "document": "knowledge/product/branding.md",
-      "source": "https://github.com/skyyware/starchat/blob/v0.2.1/docs/installation.md",
+      "source": "https://github.com/skyyware/starchat/blob/v0.2.3/docs/installation.md",
       "source_file": "docs/installation.md",
       "package": "skyyware/starchat",
-      "source_version": "v0.2.1",
-      "source_sha256": "1a30d1e8f5e47f6e69edbd16041a18da393e7939602b31b96f85cf5dd4f9cf9d",
-      "document_sha256": "e1b9e00e074c4042394ae7eb52c0b410f5ca0f2f815f28ad1265f70d924a64b3",
-      "reviewed_at": "2026-10-09",
-      "method": "Reviewed against v0.2.1 candidate source, including recovery, branding and retained operator responsibilities; visitor wording reviewed separately."
+      "source_version": "v0.2.3",
+      "source_sha256": "cebb8bed52670978865c423827ded31333c0f216b2a500c27960bd255fe788b4",
+      "document_sha256": "beba54a82926decc2b2178407a8e929e316f0bca38ca569d4447840e88fc145c",
+      "reviewed_at": "2026-10-10",
+      "method": "Reviewed the v0.2.3 installation contract, including broad starting questions and the explicit Fast default. Installation guidance updated; branding and operations statements remain valid without added technical detail."
     },
     {
       "document": "knowledge/product/history.md",
@@ -102,25 +102,25 @@
     },
     {
       "document": "knowledge/product/operations.md",
-      "source": "https://github.com/skyyware/starchat/blob/v0.2.1/docs/installation.md",
+      "source": "https://github.com/skyyware/starchat/blob/v0.2.3/docs/installation.md",
       "source_file": "docs/installation.md",
       "package": "skyyware/starchat",
-      "source_version": "v0.2.1",
-      "source_sha256": "1a30d1e8f5e47f6e69edbd16041a18da393e7939602b31b96f85cf5dd4f9cf9d",
-      "document_sha256": "777871d8ea0609fd11ce14116c258a2ef84950a03d668041be01867f16b15eb4",
-      "reviewed_at": "2026-10-09",
-      "method": "Reviewed against v0.2.1 candidate source, including recovery, branding and retained operator responsibilities; visitor wording reviewed separately."
+      "source_version": "v0.2.3",
+      "source_sha256": "cebb8bed52670978865c423827ded31333c0f216b2a500c27960bd255fe788b4",
+      "document_sha256": "30a224a0c876b61d60866e0217f41686974494207587de980cd7d5dd98a7c0c6",
+      "reviewed_at": "2026-10-10",
+      "method": "Reviewed the v0.2.3 installation contract, including broad starting questions and the explicit Fast default. Installation guidance updated; branding and operations statements remain valid without added technical detail."
     },
     {
       "document": "knowledge/product/code-examples.md",
-      "source": "https://github.com/skyyware/starchat/blob/v0.2.1/docs/installation.md",
+      "source": "https://github.com/skyyware/starchat/blob/v0.2.3/docs/installation.md",
       "source_file": "docs/installation.md",
       "package": "skyyware/starchat",
-      "source_version": "v0.2.1",
-      "source_sha256": "1a30d1e8f5e47f6e69edbd16041a18da393e7939602b31b96f85cf5dd4f9cf9d",
-      "document_sha256": "13655e4b9b48d9fce135adc9b0337f8da934dc8f357158aad1d2a08b5b4590ad",
-      "reviewed_at": "2026-10-09",
-      "method": "Reviewed against v0.2.1 candidate source, including recovery, branding and retained operator responsibilities; visitor wording reviewed separately."
+      "source_version": "v0.2.3",
+      "source_sha256": "cebb8bed52670978865c423827ded31333c0f216b2a500c27960bd255fe788b4",
+      "document_sha256": "5267abea6d3acc10078cfd887da9e7409673bbd576357b83a9b3f297c152dd60",
+      "reviewed_at": "2026-10-10",
+      "method": "Reviewed the v0.2.3 installation contract, including broad starting questions and the explicit Fast default. Installation guidance updated; branding and operations statements remain valid without added technical detail."
     },
     {
       "document": "knowledge/product/alternatives.md",

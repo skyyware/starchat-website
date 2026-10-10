@@ -1,5 +1,25 @@
 # Reference installation verification
 
+## Contextual suggestions and broad starting questions, 10 October 2026
+
+The installation adopts Starchat v0.2.3, including clarification-aware
+suggestions, a trusted date for independent answer review and the Astra Low Fast
+default. Starting questions in German and English introduce the product and
+possible uses without presuming technical knowledge or a particular role.
+Existing conversations retain their identity and contents.
+
+The four articles bound to the installation guide were reviewed against its new
+immutable source. The visitor's setup guide now explains broad starting questions
+and replies to an open clarification; branding, code and operations claims remain
+valid. Other source dates and article bodies were not refreshed. All fourteen
+owned articles, provenance, routes, handoffs and the index pass `composer check`.
+
+Two isolated real-connector product-use questions, first with the prior requested
+Ultrafast profile and then the final Fast default, returned relevant possible
+uses as the next user replies. Both passed independent review. This is a bounded
+behavior check, not a controlled latency benchmark or a universal guarantee.
+Delivery and final live verification remain separate.
+
 9 October 2026. The committed lock uses public skyyware/starchat v0.1.2 as a
 Composer distribution. Eight reviewed Markdown articles link to tagged engine
 source and this installation's entrypoint. Source hashes are in knowledge/sources.json.

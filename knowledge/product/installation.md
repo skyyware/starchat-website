@@ -2,16 +2,18 @@
 id: "starchat-installation"
 entity: "starchat"
 title: "Start with the questions people ask"
-source: "https://github.com/skyyware/starchat/blob/v0.2.1/docs/installation.md"
-retrieved_at: "2026-10-09"
+source: "https://github.com/skyyware/starchat/blob/v0.2.3/docs/installation.md"
+retrieved_at: "2026-10-10"
 review_status: "reviewed"
-source_version: "skyyware/starchat v0.2.1"
+source_version: "skyyware/starchat v0.2.3"
 public_path: "/resources/installation"
 topic_terms: ["start", "starting", "setup", "eigener", "begin", "beginnen", "einrichten", "own"]
 links: [{"label": "Start with the questions people ask", "url": "https://chat.stage.dev/resources/installation"}, {"label": "Explore technical setup with Stage", "url": "https://stage.dev/?q=How%20do%20I%20build%20my%20own%20Starchat%20installation%20on%20Stage%3F%20Explain%20the%20current%20setup%20and%20knowledge%20requirements."}]
 ---
 
 To plan your own Starchat, first choose who it is for and the questions it should help with. Select a small, useful subject. Gather the public information you can stand behind and the exact destinations people should use next.
+
+Begin with broad questions that do not assume a visitor’s role or technical knowledge. Once a conversation is underway, suggested replies should answer the current clarification before moving to another detail.
 
 Prepare answers in your own voice, with conditions and gaps made clear. Choose a name and visual identity appropriate to the audience. Try real questions, including the follow-ups you offer, and check that every suggested next step actually works.
 
