@@ -1,5 +1,30 @@
 # Reference installation verification
 
+## 10 October 2026: numbered choices and stronger contrast
+
+The reference adopts engine v0.2.5. Choices use 1 to 4 with Command on Mac and
+Control on other platforms. The hint follows the platform and current choice
+count. Tab from an empty question field, then a plain number, also selects when
+the browser reserves the modified combination for switching tabs.
+
+Suggestion cards now use opaque light grey with charcoal text. User messages
+have a stronger grey fill. White numbers on red identify both choices and answer
+steps. The composer uses a fine border, red on focus, and no drop shadow.
+
+`composer check` verifies all fourteen owned articles, reviewed package bindings,
+retrieval, public resources, protected paths and font provenance. The four articles
+bound to the installation guide were reviewed against v0.2.5. The branding article
+now explains the tested shortcuts and the browser limitation. Setup, operations
+and technical handoff wording remains accurate.
+
+Native browser checks exercised Command+2, a preserved typed draft, the rejected
+wrong modifier, and Tab followed by 3. A simulated Windows platform selected the
+Control hint and a browser-delivered Control+3 submitted the third visible choice.
+The Windows check does not establish operating-system shortcut handling. The local
+response fixture was synthetic. At 320 and 393 CSS pixels there was no horizontal overflow
+and desktop key labels and ARIA shortcuts were absent. Desktop conversation review
+confirmed the stronger fills, red numbers and a computed composer shadow of none.
+
 ## Eight-ray identity and desktop choices, 10 October 2026
 
 The reference adopts engine v0.2.4 and opts into A-to-D desktop selection.

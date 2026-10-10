@@ -1,5 +1,5 @@
 {
-  "version": "0.2.4",
+  "version": "0.2.5",
   "sources": [
     {
       "document": "knowledge/product/overview.md",
@@ -47,14 +47,14 @@
     },
     {
       "document": "knowledge/product/installation.md",
-      "source": "https://github.com/skyyware/starchat/blob/v0.2.4/docs/installation.md",
+      "source": "https://github.com/skyyware/starchat/blob/v0.2.5/docs/installation.md",
       "source_file": "docs/installation.md",
       "package": "skyyware/starchat",
-      "source_version": "v0.2.4",
-      "source_sha256": "b6fbcec6498bb39198abc118e21c2de9f1b9df9ff7047486f0963ec36cb84332",
-      "document_sha256": "ddc65df6d935cb6247c65707df00956fb07e3b04617b67b652f4a4502fd91d94",
+      "source_version": "v0.2.5",
+      "source_sha256": "f2672918a15c37538c2bd683bf3d6be547e90e516d490bb2532f856a3f18cc93",
+      "document_sha256": "7d548bad30ecf5018c101b889605103cc4622eb32f874ab3190460edf83b945d",
       "reviewed_at": "2026-10-10",
-      "method": "Reviewed v0.2.4 desktop shortcuts, header destination and legal rendering. Existing setup, operations and technical handoff statements remain accurate. Reference branding was separately checked against its own CSS, font provenance and native browser behavior."
+      "method": "Reviewed v0.2.5 numbered platform shortcuts and browser-reserved key limits. Setup, operations and technical handoff statements remain accurate. The reference branding article describes the tested keyboard behavior and preserves draft protection."
     },
     {
       "document": "knowledge/product/knowledge.md",
@@ -69,14 +69,14 @@
     },
     {
       "document": "knowledge/product/branding.md",
-      "source": "https://github.com/skyyware/starchat/blob/v0.2.4/docs/installation.md",
+      "source": "https://github.com/skyyware/starchat/blob/v0.2.5/docs/installation.md",
       "source_file": "docs/installation.md",
       "package": "skyyware/starchat",
-      "source_version": "v0.2.4",
-      "source_sha256": "b6fbcec6498bb39198abc118e21c2de9f1b9df9ff7047486f0963ec36cb84332",
-      "document_sha256": "194761c0562d867c8989e6efe6ee6a64e9abc0709ab295c1234bc22856127faf",
+      "source_version": "v0.2.5",
+      "source_sha256": "f2672918a15c37538c2bd683bf3d6be547e90e516d490bb2532f856a3f18cc93",
+      "document_sha256": "b7893dc355720ebfac21699a5775bb9bc259992cd57180c8c69ee342274ecb7a",
       "reviewed_at": "2026-10-10",
-      "method": "Reviewed v0.2.4 desktop shortcuts, header destination and legal rendering. Existing setup, operations and technical handoff statements remain accurate. Reference branding was separately checked against its own CSS, font provenance and native browser behavior.",
+      "method": "Reviewed v0.2.5 numbered platform shortcuts and browser-reserved key limits. Setup, operations and technical handoff statements remain accurate. The reference branding article describes the tested keyboard behavior and preserves draft protection.",
       "supporting_sources": [
         "https://github.com/skyyware/starchat-website/blob/main/docs/design.md",
         "https://github.com/skyyware/starchat-website/blob/main/public/branding/fonts/sources.json"
@@ -106,25 +106,25 @@
     },
     {
       "document": "knowledge/product/operations.md",
-      "source": "https://github.com/skyyware/starchat/blob/v0.2.4/docs/installation.md",
+      "source": "https://github.com/skyyware/starchat/blob/v0.2.5/docs/installation.md",
       "source_file": "docs/installation.md",
       "package": "skyyware/starchat",
-      "source_version": "v0.2.4",
-      "source_sha256": "b6fbcec6498bb39198abc118e21c2de9f1b9df9ff7047486f0963ec36cb84332",
-      "document_sha256": "f7b01d3b4750827fb8a02928e751cb38cdb00c04f2844d93b1db865761997ab1",
+      "source_version": "v0.2.5",
+      "source_sha256": "f2672918a15c37538c2bd683bf3d6be547e90e516d490bb2532f856a3f18cc93",
+      "document_sha256": "cb289ea42c0fe4607286e80381d4bf8f9d9660ee8f8294546c00a42ad217c6ca",
       "reviewed_at": "2026-10-10",
-      "method": "Reviewed v0.2.4 desktop shortcuts, header destination and legal rendering. Existing setup, operations and technical handoff statements remain accurate. Reference branding was separately checked against its own CSS, font provenance and native browser behavior."
+      "method": "Reviewed v0.2.5 numbered platform shortcuts and browser-reserved key limits. Setup, operations and technical handoff statements remain accurate. The reference branding article describes the tested keyboard behavior and preserves draft protection."
     },
     {
       "document": "knowledge/product/code-examples.md",
-      "source": "https://github.com/skyyware/starchat/blob/v0.2.4/docs/installation.md",
+      "source": "https://github.com/skyyware/starchat/blob/v0.2.5/docs/installation.md",
       "source_file": "docs/installation.md",
       "package": "skyyware/starchat",
-      "source_version": "v0.2.4",
-      "source_sha256": "b6fbcec6498bb39198abc118e21c2de9f1b9df9ff7047486f0963ec36cb84332",
-      "document_sha256": "0bc13ee5e63eca30b1ecc4b90d28bf7c8de2e3a7b77f5bc92f8b44f9bdb85e25",
+      "source_version": "v0.2.5",
+      "source_sha256": "f2672918a15c37538c2bd683bf3d6be547e90e516d490bb2532f856a3f18cc93",
+      "document_sha256": "d781ff2cecacdf79dffcec85b14db357baf9940659b5999f6db5fa0ba15eaf61",
       "reviewed_at": "2026-10-10",
-      "method": "Reviewed v0.2.4 desktop shortcuts, header destination and legal rendering. Existing setup, operations and technical handoff statements remain accurate. Reference branding was separately checked against its own CSS, font provenance and native browser behavior."
+      "method": "Reviewed v0.2.5 numbered platform shortcuts and browser-reserved key limits. Setup, operations and technical handoff statements remain accurate. The reference branding article describes the tested keyboard behavior and preserves draft protection."
     },
     {
       "document": "knowledge/product/alternatives.md",

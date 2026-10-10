@@ -2,12 +2,12 @@
 id: "starchat-branding"
 entity: "starchat"
 title: "Make it feel like you"
-source: "https://github.com/skyyware/starchat/blob/v0.2.4/docs/installation.md"
+source: "https://github.com/skyyware/starchat/blob/v0.2.5/docs/installation.md"
 retrieved_at: "2026-10-10"
 review_status: "reviewed"
-source_version: "skyyware/starchat v0.2.4"
+source_version: "skyyware/starchat v0.2.5"
 public_path: "/resources/branding"
-topic_terms: ["brand", "branding", "style", "design", "appearance", "logo", "farben", "gestaltung", "aussehen"]
+topic_terms: ["brand", "branding", "style", "design", "appearance", "logo", "farben", "gestaltung", "aussehen", "keyboard", "shortcuts", "tastatur", "tastenkürzel"]
 links: [{"label": "Make it feel like you", "url": "https://chat.stage.dev/resources/branding"}, {"label": "Explore technical styling with Stage", "url": "https://stage.dev/?q=How%20do%20I%20configure%20the%20name%2C%20logo%2C%20colors%2C%20fonts%20and%20CSS%20of%20my%20own%20Starchat%20installation%20on%20Stage%3F"}]
 ---
 
@@ -19,4 +19,4 @@ Use logos, fonts, photographs and written material you own or have the right to 
 
 The name or logo can link to your organization’s homepage. This website is one example: it uses self-hosted Public Sans for answers and controls, Source Serif 4 for headings, and a red eight-ray asterisk on white. Your installation can use a different design and collection. If you want to implement styling or configuration in code, continue with the prepared technical question at Stage.
 
-On desktop, this reference labels suggested replies A to D. Press a letter outside text fields, or Alt plus the letter in the empty question field. Existing drafts are never replaced by these shortcuts. Mobile visitors use the same suggestions as touch buttons.
+On desktop, this reference numbers suggested replies 1 to 4. Use Command plus the number on Mac or Control plus the number elsewhere. Some browsers reserve those combinations for switching tabs. In that case, return to the chat, leave the empty question field with Tab, then press the number on its own. Existing drafts are never replaced by these shortcuts. Mobile visitors use the same suggestions as touch buttons.

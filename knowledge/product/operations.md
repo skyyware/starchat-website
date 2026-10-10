@@ -2,10 +2,10 @@
 id: "starchat-operations"
 entity: "starchat"
 title: "What running a chat involves"
-source: "https://github.com/skyyware/starchat/blob/v0.2.4/docs/installation.md"
+source: "https://github.com/skyyware/starchat/blob/v0.2.5/docs/installation.md"
 retrieved_at: "2026-10-10"
 review_status: "reviewed"
-source_version: "skyyware/starchat v0.2.4"
+source_version: "skyyware/starchat v0.2.5"
 public_path: "/resources/operations"
 topic_terms: ["cost", "costs", "pricing", "kosten", "preis", "price", "maintenance", "betrieb", "hosting", "maintain"]
 links: [{"label": "What running a chat involves", "url": "https://chat.stage.dev/resources/operations"}, {"label": "Explore technical operations with Stage", "url": "https://stage.dev/?q=What%20hosting%2C%20runtime%2C%20model%20configuration%2C%20checks%20and%20release%20process%20does%20a%20Starchat%20installation%20on%20Stage%20need%3F"}]

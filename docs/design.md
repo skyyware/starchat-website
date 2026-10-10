@@ -2,8 +2,9 @@
 
 The reference uses white surfaces, charcoal controls and one red accent
 (`#d9232c`). An original eight-ray asterisk identifies Starchat in the header and
-favicon. Soft light beneath the composer and an integrated dark send control
-give the interface the quiet, precise character of a white spacecraft interior.
+favicon. Opaque grey controls, a fine composer border and an integrated dark
+send control keep the white interface distinct without drop shadows. Red markers
+identify answer steps and numbered choices. Text remains charcoal on light grey.
 
 The headline and document section headings use Source Serif 4 Display. Public
 Sans handles answers, controls and the text wordmark. Both ship as unchanged
@@ -16,10 +17,13 @@ uses freely redistributable fonts for those two roles; it does not ship those
 commercial font files or copy the site's identity.
 
 Suggested questions form two columns from 800 CSS pixels upward and wrap at
-their natural widths below that. Desktop choices show A to D. Letters choose a
-reply outside editable controls; Alt plus a letter also works in the empty
-composer. Typed drafts remain intact. Controls show keyboard focus through
-background or color changes without outlines. Header, conversation and legal
+their natural widths below that. Desktop choices show 1 to 4. Command plus a
+digit selects on Mac and Control plus a digit selects elsewhere, when the browser
+forwards the combination. The hint follows the platform and available choices.
+For browsers that reserve those keys, Tab leaves the empty question field and
+a plain digit selects the choice. Typed drafts remain intact. Controls show
+keyboard focus through background or color changes. The composer border turns
+red on focus. Header, conversation and legal
 footer share an 820-pixel maximum width.
 
 Review desktop, 393-pixel and 320-pixel layouts in the native browser. Check

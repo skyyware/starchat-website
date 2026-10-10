@@ -23,16 +23,16 @@ body{font-size:16px;line-height:1.65;-webkit-font-smoothing:antialiased;backgrou
 .welcome .eyebrow{display:none}
 .welcome h1{font-size:clamp(42px,4.8vw,62px);font-weight:400;line-height:1.08;letter-spacing:-.035em;margin-bottom:22px;text-wrap:balance}
 .description{font-size:16px;line-height:1.7;color:#626970;max-width:550px;margin-inline:auto;text-wrap:balance}
-.composer{border:0;border-radius:24px;background:#fff;padding:0;padding-inline-start:26px;gap:0;min-height:76px;overflow:hidden;box-shadow:0 5px 32px #202b3910,0 1px 3px #202b3908;transition:box-shadow .2s}
-.composer:focus-within{background:#fff;box-shadow:0 8px 40px #202b3917,0 2px 4px #202b390a}
+.composer{border:1px solid #929da6;border-radius:24px;background:#edf0f2;padding:0;padding-inline-start:26px;gap:0;min-height:76px;overflow:hidden;box-shadow:none;transition:background .2s,border-color .2s}
+.composer:focus-within{background:#fff;border-color:var(--accent);box-shadow:none}
 textarea{font-size:17px;line-height:1.6;caret-color:#d9232c;min-height:28px;margin-block:18px;padding-inline-end:20px}
 .send{align-self:stretch;min-height:76px;height:auto;width:74px;border-radius:0;background:#202226;color:#fff;transition:background .2s}
 .send:hover,.send:focus-visible{background:#d9232c;filter:none}
 .send svg{width:25px;height:25px;stroke-width:1.5}
 .suggestions{gap:10px 14px;margin-top:24px;margin-bottom:18px;align-items:stretch;display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}
-.suggestions button{width:100%;border:0;background:#f3f5f7a6;border-radius:14px;padding:13px 16px;min-height:56px;font-size:13px;color:#555e67;gap:13px;line-height:1.5;transition:background .15s,color .15s}
-.suggestions button:hover,.suggestions button:focus-visible{background:#e7ebef;color:#202226;filter:none}
-.suggestion-key{color:#a7232a;border-radius:5px;background:#fff;font-size:11px;box-shadow:0 1px 3px #202b3907}
+.suggestions button{width:100%;border:0;background:#e1e6ea;border-radius:14px;padding:13px 16px;min-height:56px;font-size:13px;color:#30343a;gap:13px;line-height:1.5;transition:background .15s,color .15s}
+.suggestions button:hover,.suggestions button:focus-visible{background:#cbd3da;color:#202226;filter:none}
+.suggestion-key{color:#fff;border-radius:5px;background:var(--accent);font-size:11px}
 .suggestions .suggestion-text{flex:1}
 .suggestions .icon{width:12px;height:12px;color:#78838c;margin-inline-start:auto}
 .suggestions[data-shortcuts="true"] .icon{display:none}
@@ -41,11 +41,11 @@ textarea{font-size:17px;line-height:1.6;caret-color:#d9232c;min-height:28px;marg
 .has-conversation .composer-wrap{padding-block:26px 14px;margin-top:22px}
 .conversation{gap:36px}
 .message.assistant{padding-inline:2px}
-.message.user{background:#eff2f4;border-radius:20px 20px 5px 20px;padding:15px 22px;max-width:88%;font-size:15px}
+.message.user{background:#dce2e7;color:#202226;border-radius:20px 20px 5px 20px;padding:15px 22px;max-width:88%;font-size:15px}
 .answer-label{font-size:10px;font-weight:600;letter-spacing:.12em;color:#737d86}
 .answer-intro{font-size:19px;line-height:1.65;margin-top:17px;margin-bottom:26px}
 .answer-step{padding-inline-start:36px}
-.answer-step:before{width:24px;height:24px;background:#eff2f4;font-size:11px;font-weight:600;top:3px}
+.answer-step:before{width:24px;height:24px;background:var(--accent);color:#fff;font-size:11px;font-weight:600;top:3px}
 .answer-step p{font-size:16px;line-height:1.75}
 .source-link{font-size:12px;color:#5b6872;border-color:#cad0d5}
 .source-link:hover,.source-link:focus-visible{color:#a51d24;border-color:#d9232c}
