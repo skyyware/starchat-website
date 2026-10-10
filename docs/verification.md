@@ -1,5 +1,20 @@
 # Reference installation verification
 
+## 10 October 2026, 16:02 UTC: build 14 final verification
+
+Build 14 at `37743ffa909e83531d12e1ec54eeea33f0473b51` is live with v0.2.5.
+Its application and fourteen indexed articles are unchanged from build 13;
+the source difference contains only the preceding verification receipt.
+The coordinated follow-up retains the checked keyboard behavior and design.
+
+Final HTTPS readback matches the exact release, JavaScript and stylesheet.
+The native desktop browser shows numbers 1 to 4, the Mac hint and corresponding
+ARIA shortcuts, stronger suggestion fills, and no composer shadow. No browser
+errors or horizontal overflow were observed. The same application at 320 CSS
+pixels hides desktop shortcuts and keeps the complete touch layout within the
+viewport. Final desktop and mobile screenshots were captured directly from the
+live page. Documentation-only receipts do not trigger another build.
+
 ## 10 October 2026, 15:47 UTC: build 13 live verification
 
 Build 13 at `530b6ccad493c1b386322effc0b80a29822a38cc` serves v0.2.5 and fourteen
