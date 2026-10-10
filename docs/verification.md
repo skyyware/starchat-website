@@ -32,8 +32,12 @@ screens. The welcome page fits 320 CSS pixels and the legal page fits 393
 pixels without horizontal overflow. The visible combined legal title and
 contents navigation are absent; accessible headings and section anchors remain.
 Existing browser conversations were not reset or submitted during these checks.
-Successful provider responses remain a separate open verification item. This
-documentation-only receipt does not require rebuilding the activated release.
+A subsequent live question, "Was ist Starchat?", returned a complete answer
+in 14.410 seconds, including independent review. It explains the supported
+audiences, curated information, links, customization, action limits and MIT
+licensing. Its three suggestions continue those topics. HTTP returned 200 with
+`answered` and no failure header. This is one observed response, not a latency
+guarantee. This documentation-only receipt does not require rebuilding the release.
 
 ## Contextual suggestions and broad starting questions, 10 October 2026
 
