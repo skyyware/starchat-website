@@ -23,6 +23,18 @@ its v0.2.4 source. The branding article now describes the actual fonts, symbol
 and optional keyboard behavior; other visitor claims remain unchanged. Provider
 and production checks are recorded separately; this entry does not claim them.
 
+Build 12 from `089b80e797fbf5021ddde8ca62a9d6836fd50647` was activated on
+10 October 2026 with engine v0.2.4 and fourteen reviewed articles. The live
+health response matches the release. HTTPS home and both legal languages
+respond successfully. Native live checks confirm Public Sans, Source Serif 4,
+the eight-ray symbol, desktop shortcut labels, and their omission on narrow
+screens. The welcome page fits 320 CSS pixels and the legal page fits 393
+pixels without horizontal overflow. The visible combined legal title and
+contents navigation are absent; accessible headings and section anchors remain.
+Existing browser conversations were not reset or submitted during these checks.
+Successful provider responses remain a separate open verification item. This
+documentation-only receipt does not require rebuilding the activated release.
+
 ## Contextual suggestions and broad starting questions, 10 October 2026
 
 The installation adopts Starchat v0.2.3, including clarification-aware
