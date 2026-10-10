@@ -15,7 +15,8 @@ and bare C outside the composer submitted their matching displayed choices.
 The language selector did not submit a question when Alt+A was pressed. These
 keyboard checks used a synthetic local response and prove the UI request path,
 not model answers. Legal page sections and anchors remain with the redundant
-visible title and contents navigation removed.
+visible title and contents navigation removed. The composer also grows with a
+multiline Arabic draft; its send control stays flush at the left edge in RTL.
 
 The four visitor articles bound to the installation guide were reviewed against
 its v0.2.4 source. The branding article now describes the actual fonts, symbol
