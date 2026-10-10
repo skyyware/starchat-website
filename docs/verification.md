@@ -1,5 +1,27 @@
 # Reference installation verification
 
+## Eight-ray identity and desktop choices, 10 October 2026
+
+The reference adopts engine v0.2.4 and opts into A-to-D desktop selection.
+Public Sans handles controls and answers; Source Serif 4 Display handles the
+headline and document headings. The unchanged font files and licenses have
+immutable upstream URLs and SHA-256 bindings. The new original asterisk has
+eight rays. The borderless composer integrates its send control at the right edge.
+
+The native browser checked the actual application at 320, 393 and 1280 CSS pixels.
+No horizontal overflow was observed. Desktop labels disappear on the narrow
+layout. Ordinary typing and existing drafts survived shortcut attempts; Alt+B
+and bare C outside the composer submitted their matching displayed choices.
+The language selector did not submit a question when Alt+A was pressed. These
+keyboard checks used a synthetic local response and prove the UI request path,
+not model answers. Legal page sections and anchors remain with the redundant
+visible title and contents navigation removed.
+
+The four visitor articles bound to the installation guide were reviewed against
+its v0.2.4 source. The branding article now describes the actual fonts, symbol
+and optional keyboard behavior; other visitor claims remain unchanged. Provider
+and production checks are recorded separately; this entry does not claim them.
+
 ## Contextual suggestions and broad starting questions, 10 October 2026
 
 The installation adopts Starchat v0.2.3, including clarification-aware

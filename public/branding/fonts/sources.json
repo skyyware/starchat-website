@@ -1,0 +1,38 @@
+[
+  {
+    "file": "PublicSans-Regular.woff2",
+    "source": "https://raw.githubusercontent.com/uswds/public-sans/e40fcf567e44b4f5f08a658247663275fa1ad741/fonts/webfonts/PublicSans-Regular.woff2",
+    "sha256": "f3931c3c3ec5301043634ac8f39bcfa7b30d29181864f2fd0c3e6796feacc471",
+    "bytes": 33612
+  },
+  {
+    "file": "PublicSans-SemiBold.woff2",
+    "source": "https://raw.githubusercontent.com/uswds/public-sans/e40fcf567e44b4f5f08a658247663275fa1ad741/fonts/webfonts/PublicSans-SemiBold.woff2",
+    "sha256": "f99ffc265cc790e0f058a9f430a465c88996008327abb0f8561cb713add40d73",
+    "bytes": 33636
+  },
+  {
+    "file": "PublicSans-LICENSE.md",
+    "source": "https://raw.githubusercontent.com/uswds/public-sans/e40fcf567e44b4f5f08a658247663275fa1ad741/LICENSE.md",
+    "sha256": "82f0d3cad45f264192db156360b4a710fe7060885f6aa261e6539f13cb9eb0d9",
+    "bytes": 6709
+  },
+  {
+    "file": "PublicSans-OFL.txt",
+    "source": "https://raw.githubusercontent.com/uswds/public-sans/e40fcf567e44b4f5f08a658247663275fa1ad741/OFL.txt",
+    "sha256": "157a9e77f7580246e97c769490e2e977ae94399f9d30f4556015c41fe8c28bac",
+    "bytes": 4390
+  },
+  {
+    "file": "SourceSerif4Display-Regular.woff2",
+    "source": "https://raw.githubusercontent.com/adobe-fonts/source-serif/80d3f8894c09c937bebfa9011247d2e1c79fd6f4/WOFF2/OTF/SourceSerif4Display-Regular.otf.woff2",
+    "sha256": "653abcd4b389bf856b0dc4bb186237a80e9fdbcad6522dcaed5f0f38b9e2ba2a",
+    "bytes": 107172
+  },
+  {
+    "file": "SourceSerif4-LICENSE.md",
+    "source": "https://raw.githubusercontent.com/adobe-fonts/source-serif/80d3f8894c09c937bebfa9011247d2e1c79fd6f4/LICENSE.md",
+    "sha256": "c21d7293d87b6d7ab1d0229a2f55b77f33a7613a6a4e66f6693d68d7d8d09464",
+    "bytes": 4491
+  }
+]

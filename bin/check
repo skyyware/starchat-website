@@ -83,6 +83,10 @@ try {
     if (is_file($index)) { unlink($index); }
     if (is_file($index . '.lock')) { unlink($index . '.lock'); }
 }
-$fail($installation->data['brand']['font'] === 'd-din' && $installation->data['brand']['heading_font'] === 'd-din', 'Reference typography changed');
-$fail(hash_file('sha256', $root . '/vendor/skyyware/starchat/public/fonts/D-DIN.otf') === '6d67834e2a76646c456c087ce42a6bd6b6b0c85c88dd9918618a8b4c563c2bdf', 'Unexpected DIN asset');
+$fonts = json_decode(file_get_contents($root . '/public/branding/fonts/sources.json'), true, flags: JSON_THROW_ON_ERROR);
+foreach ($fonts as $font) {
+    $file = $root . '/public/branding/fonts/' . $font['file'];
+    $fail(basename($font['file']) === $font['file'] && is_file($file), 'Missing bundled font or license');
+    $fail(hash_file('sha256', $file) === $font['sha256'] && filesize($file) === $font['bytes'], 'Font or license differs from reviewed upstream asset');
+}
 echo count($files), " reviewed owned articles, source bindings, retrieval, handoffs and index verified\n";
