@@ -1,5 +1,23 @@
 # Reference installation verification
 
+## 10 October 2026, 15:47 UTC: build 13 live verification
+
+Build 13 at `530b6ccad493c1b386322effc0b80a29822a38cc` serves v0.2.5 and fourteen
+reviewed articles. HTTPS assets match the published JavaScript and stylesheet.
+The native browser shows 1 to 4 and the Command hint on Mac, with no composer
+shadow. A real Command+1 selected the visible first question and received a
+complete answer about when a simple website is preferable. Its two new
+suggestions were labelled 1 and 2; the hint updated to the same range.
+
+A separate real answer correctly explained Command on Mac, Control on Windows,
+and the Tab-then-number fallback for browser-reserved shortcuts. It completed in
+9.822 seconds. This is one observation, not a performance benchmark.
+
+Text contrast is 9.96:1 on suggestion cards and 12.19:1 on user bubbles.
+White numbers on the red markers reach 4.97:1. These ratios use the CSS colors;
+they do not constitute a complete accessibility audit. Existing typography,
+source links and legal access remain intact.
+
 ## 10 October 2026: numbered choices and stronger contrast
 
 The reference adopts engine v0.2.5. Choices use 1 to 4 with Command on Mac and
