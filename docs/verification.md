@@ -18,7 +18,21 @@ Two isolated real-connector product-use questions, first with the prior requeste
 Ultrafast profile and then the final Fast default, returned relevant possible
 uses as the next user replies. Both passed independent review. This is a bounded
 behavior check, not a controlled latency benchmark or a universal guarantee.
-Delivery and final live verification remain separate.
+
+Build 10 from `934fd56bc8a51ab2c0591566e8d2441649bd61ff` is activated with
+engine v0.2.3 and fourteen reviewed articles. Health, protected file paths,
+served application modules and both language starter lists match the release.
+The active profile requests Astra with Low and Fast.
+
+A native browser sent “Wie fange ich an?” to the live HTTPS application after
+activation. The complete answer helps the visitor choose an audience and a
+small useful topic; the three suggested replies answer its audience question
+in the same order. It passed independent review in 18.06 seconds, a single
+observation rather than a latency guarantee. The original installed frontend
+was served on an isolated local origin, forwarding only chat requests to the
+live application to preserve existing browser histories. Desktop and mobile
+views were checked, including a 360 CSS-pixel viewport without horizontal
+overflow. This subsequent evidence entry does not require another build.
 
 9 October 2026. The committed lock uses public skyyware/starchat v0.1.2 as a
 Composer distribution. Eight reviewed Markdown articles link to tagged engine
